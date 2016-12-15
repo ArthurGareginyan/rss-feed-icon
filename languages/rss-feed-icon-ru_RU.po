@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RSS Feed Icon\n"
+"POT-Creation-Date: 2016-12-15 12:19+0300\n"
+"PO-Revision-Date: 2016-12-15 12:20+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: rss-feed-icon.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: inc/php/settings_page.php:24
+msgid "RSS Feed Icon"
+msgstr ""
+
+#: inc/php/settings_page.php:27
+msgid ""
+"by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur "
+"Gareginyan</a>"
+msgstr ""
+"от <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Артур "
+"Гарегинян</a>"
+
+#: inc/php/settings_page.php:38
+msgid "About"
+msgstr "О плагине"
+
+#. Description of the plugin/theme
+#: inc/php/settings_page.php:40
+msgid ""
+"This plugin allows you to easily add RSS feed icon in any place on your "
+"website."
+msgstr ""
+"Этот плагин позволяет легко добавлять иконку RSS ленты в любое место на "
+"вашем веб-сайте."
+
+#: inc/php/settings_page.php:41
+msgid ""
+"RSS feed icon allows your visitors to receive messages from your Blog/RSS "
+"feed by email."
+msgstr ""
+"Иконка RSS ленты позволяет посетителям получать сообщения с вашего блога/RSS-"
+"канала по электронной почте."
+
+#: inc/php/settings_page.php:46
+msgid "Help"
+msgstr "Помощь"
+
+#: inc/php/settings_page.php:48
+msgid "Got something to say? Need help?"
+msgstr "Есть что сказать? Нужна помощь?"
+
+#: inc/php/settings_page.php:54
+msgid "Donate"
+msgstr "Поддержать разработку"
+
+#: inc/php/settings_page.php:56
+msgid ""
+"I'm an independent developer, without a regular income, so every little "
+"contribution helps cover my costs and lets me spend more time building "
+"things for people like you to enjoy."
+msgstr ""
+"Я независимый разработчик, без регулярного дохода, так что каждый маленький "
+"вклад помогает мне покрыть затраты и позволяет тратить больше времени на "
+"создание программ для людей как вы."
+
+#: inc/php/settings_page.php:60
+msgid "Thanks for your support!"
+msgstr "Спасибо за вашу поддержку!"
+
+#: inc/php/settings_page.php:81 rss-feed-icon.php:73
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/php/settings_page.php:89
+msgid "RSS feed link"
+msgstr "Ссылка на RSS ленту"
+
+#: inc/php/settings_page.php:99
+msgid ""
+"You can set a custom link to RSS feed of your website. Leave blank to use "
+"the default WordPress RSS feed link. Example: 'http://www.example.com/?"
+"feed=rss'"
+msgstr ""
+"Вы можете установить пользовательскую ссылку на RSS ленту вашего веб-сайта. "
+"Можете оставить пустым для того, чтобы использовать стандартную для "
+"WordPress ссылку на RSS ленту. Пример: ‘http://www.example.com/?feed=rss’"
+
+#: inc/php/settings_page.php:105
+msgid "RSS feed icon"
+msgstr "Иконка RSS ленты"
+
+#: inc/php/settings_page.php:164
+msgid ""
+"You can choose icon from above or upload your own icon. You can find the "
+"coolest icons on the <a href=\"https://www.iconfinder.com/search/?q=rss"
+"+feed&ref=ArthurGareginyan\" target=\"_blank\" rel=\"nofollow\" >IconFinder."
+"com.</a>"
+msgstr ""
+"Вы можете выбрать иконку из вышепоказанных или загрузить свою собственную "
+"иконку. Вы можете найти самые классные иконки на <a href=\"https://www."
+"iconfinder.com/search/?q=rss+feed&ref=ArthurGareginyan\" target=\"_blank\" "
+"rel=\"nofollow\" >IconFinder.com.</a>"
+
+#: inc/php/settings_page.php:170
+msgid "Size of icon"
+msgstr "Размер иконки"
+
+#: inc/php/settings_page.php:180
+msgid "You can set the height of icon (in px)."
+msgstr "Вы можете установить высоту иконки (в px)."
+
+#: inc/php/settings_page.php:186
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: inc/php/settings_page.php:192
+msgid "Preview"
+msgstr "Предварительный просмотр"
+
+#: inc/php/settings_page.php:194
+msgid "Click \"Save Changes\" to update this preview."
+msgstr ""
+"Нажмите кнопку «Сохранить изменения», чтобы обновить этот пред. просмотр."
+
+#: inc/php/settings_page.php:203
+msgid "Using"
+msgstr "Как пользоваться"
+
+#: inc/php/settings_page.php:205
+msgid ""
+"You have several methods for display the RSS feed icon (further just \"icon"
+"\") on your website. But first, enter your RSS feed link and choose "
+"preferred icon, then click \"Save Changes\"."
+msgstr ""
+"У вас есть несколько способов для того, чтобы отобразить иконку RSS ленты "
+"(далее просто “иконка”) на вашем вебсайте. Но сначала укажите ссылку на RSS "
+"ленту, а затем нажмите “Сохранить изменения”."
+
+#: inc/php/settings_page.php:206
+msgid ""
+"<b>A)</b> For add the icon inside a post from WP Post/Page Editor use the "
+"following shortcode:"
+msgstr ""
+"<b>A)</b> Для того, чтобы добавить иконку в пост из WP Post/Page Editor "
+"используйте следующий шорткод:"
+
+#: inc/php/settings_page.php:208
+msgid ""
+"<b>B)</b> For add the icon to the widget area (in sidebar, footer etc.) use "
+"the \"Text\" widget and add inside it the following shortcode:"
+msgstr ""
+"<b>B)</b> Для того, чтобы добавить иконку в область виджетов (в боковой "
+"панели, колонтитуле и т.д.) используйте виджет \"Text\" добавив в него "
+"следующий шорткод:"
+
+#: inc/php/settings_page.php:210
+msgid ""
+"<b>C)</b> For add the icon directly to a theme files, just add one of the "
+"following code (both variants do the same) to needed place (where you want "
+"to display the button) in your theme files:"
+msgstr ""
+"<b>C)</b> Для того, чтобы добавить иконку непосредственно в файлы темы, "
+"просто добавьте один из следующих вариантов кода (оба варианта делают одно и "
+"тоже) в нужное место (где вы хотите отобразить иконку) ваших файлов темы:"
+
+#: inc/php/settings_page.php:213
+msgid ""
+"It's that simple! If you want more options then tell me and I will be happy "
+"to add it."
+msgstr ""
+"Это так просто! Если вы хотите иметь больше опций, то скажите мне об этом и "
+"я буду счастлив добавить их."
+
+#: rss-feed-icon.php:149
+msgid "Upload"
+msgstr "Загрузить"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/ArthurGareginyan/rss-feed-icon"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Arthur Gareginyan"
+msgstr "Артур Гарегинян"
+
+#. Author URI of the plugin/theme
+msgid "http://www.arthurgareginyan.com"
+msgstr ""
+
+#~ msgid ""
+#~ "You can set a custom link to RSS feed of your website. Leave blank to use "
+#~ "the default WordPress feed link. Example: 'http://www.example.com/?"
+#~ "feed=rss'"
+#~ msgstr ""
+#~ "Вы можете установить пользовательскую ссылку на RSS ленту вашего веб-"
+#~ "сайта. Можете оставить пустым для того, чтобы использовать стандартную "
+#~ "для WordPress ссылку на RSS ленту. Пример: ‘http://www.example.com/?"
+#~ "feed=rss’"
+
+#~ msgid ""
+#~ "You can set a custom link to feed of your website. Leave blank to use the "
+#~ "default WordPress feed link. Example: 'http://www.example.com/?feed=rss'"
+#~ msgstr ""
+#~ "Вы можете установить пользовательскую ссылку, чтобы кормить вашего сайта. "
+#~ "Оставьте пустым, чтобы использовать WordPress связь подачи по умолчанию. "
+#~ "Пример: ‘http://www.example.com/?feed=rss’"
+
+#~ msgid ""
+#~ "You have several methods for display the RSS feed icon (further just "
+#~ "\"icon\") on your website. But first, enter your feed link and choose "
+#~ "preferred icon, then click \"Save Changes\"."
+#~ msgstr ""
+#~ "У вас есть несколько способов для того, чтобы отобразить иконку RSS ленты "
+#~ "(далее просто “иконка”) на вашем вебсайте. Но сначала укажите ссылки на "
+#~ "ленту, а затем нажмите “Сохранить изменения”."
