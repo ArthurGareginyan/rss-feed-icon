@@ -2,7 +2,7 @@
 /**
  * Plugin Name: RSS Feed Icon
  * Plugin URI: https://github.com/ArthurGareginyan/rss-feed-icon
- * Description: This plugin allows you to easily add RSS feed icon in any place on your website.
+ * Description: Easily add the RSS feed icon in any place of your website. It will be responsive and compatible with all major browsers. It will work with any theme!
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
  * Version: 1.0
@@ -10,7 +10,7 @@
  * Text Domain: rss-feed-icon
  * Domain Path: /languages/
  *
- * Copyright 2014-2016 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
+ * Copyright 2016 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
  *
  * This file is part of "RSS Feed Icon".
  *

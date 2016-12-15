@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: RSS Feed Icon\n"
-"POT-Creation-Date: 2016-12-15 12:19+0300\n"
+"POT-Creation-Date: 2016-12-15 13:06+0300\n"
 "PO-Revision-Date: 2016-12-15 11:48+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -35,62 +35,56 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#. Description of the plugin/theme
 #: inc/php/settings_page.php:40
 msgid ""
-"This plugin allows you to easily add RSS feed icon in any place on your "
-"website."
+"This plugin allows you to easily add the RSS feed icon in any place on your "
+"website. RSS feed icon allows your visitors to receive messages from your "
+"Blog/RSS feed by email."
 msgstr ""
 
-#: inc/php/settings_page.php:41
-msgid ""
-"RSS feed icon allows your visitors to receive messages from your Blog/RSS "
-"feed by email."
-msgstr ""
-
-#: inc/php/settings_page.php:46
+#: inc/php/settings_page.php:45
 msgid "Help"
 msgstr ""
 
-#: inc/php/settings_page.php:48
+#: inc/php/settings_page.php:47
 msgid "Got something to say? Need help?"
 msgstr ""
 
-#: inc/php/settings_page.php:54
+#: inc/php/settings_page.php:53
 msgid "Donate"
 msgstr ""
 
-#: inc/php/settings_page.php:56
+#: inc/php/settings_page.php:55
 msgid ""
 "I'm an independent developer, without a regular income, so every little "
 "contribution helps cover my costs and lets me spend more time building "
 "things for people like you to enjoy."
 msgstr ""
 
-#: inc/php/settings_page.php:60
+#: inc/php/settings_page.php:59
 msgid "Thanks for your support!"
 msgstr ""
 
-#: inc/php/settings_page.php:81 rss-feed-icon.php:73
+#: inc/php/settings_page.php:80 rss-feed-icon.php:73
 msgid "Settings"
 msgstr ""
 
-#: inc/php/settings_page.php:89
+#: inc/php/settings_page.php:88
 msgid "RSS feed link"
 msgstr ""
 
-#: inc/php/settings_page.php:99
+#: inc/php/settings_page.php:98
 msgid ""
 "You can set a custom link to RSS feed of your website. Leave blank to use "
 "the default WordPress RSS feed link. Example: 'http://www.example.com/?"
 "feed=rss'"
 msgstr ""
 
-#: inc/php/settings_page.php:105
+#: inc/php/settings_page.php:104
 msgid "RSS feed icon"
 msgstr ""
 
-#: inc/php/settings_page.php:164
+#: inc/php/settings_page.php:163
 msgid ""
 "You can choose icon from above or upload your own icon. You can find the "
 "coolest icons on the <a href=\"https://www.iconfinder.com/search/?q=rss"
@@ -98,57 +92,57 @@ msgid ""
 "com.</a>"
 msgstr ""
 
-#: inc/php/settings_page.php:170
+#: inc/php/settings_page.php:169
 msgid "Size of icon"
 msgstr ""
 
-#: inc/php/settings_page.php:180
+#: inc/php/settings_page.php:179
 msgid "You can set the height of icon (in px)."
 msgstr ""
 
-#: inc/php/settings_page.php:186
+#: inc/php/settings_page.php:185
 msgid "Save Changes"
 msgstr ""
 
-#: inc/php/settings_page.php:192
+#: inc/php/settings_page.php:191
 msgid "Preview"
 msgstr ""
 
-#: inc/php/settings_page.php:194
+#: inc/php/settings_page.php:193
 msgid "Click \"Save Changes\" to update this preview."
 msgstr ""
 
-#: inc/php/settings_page.php:203
+#: inc/php/settings_page.php:202
 msgid "Using"
 msgstr ""
 
-#: inc/php/settings_page.php:205
+#: inc/php/settings_page.php:204
 msgid ""
 "You have several methods for display the RSS feed icon (further just \"icon"
 "\") on your website. But first, enter your RSS feed link and choose "
 "preferred icon, then click \"Save Changes\"."
 msgstr ""
 
-#: inc/php/settings_page.php:206
+#: inc/php/settings_page.php:205
 msgid ""
 "<b>A)</b> For add the icon inside a post from WP Post/Page Editor use the "
 "following shortcode:"
 msgstr ""
 
-#: inc/php/settings_page.php:208
+#: inc/php/settings_page.php:207
 msgid ""
 "<b>B)</b> For add the icon to the widget area (in sidebar, footer etc.) use "
 "the \"Text\" widget and add inside it the following shortcode:"
 msgstr ""
 
-#: inc/php/settings_page.php:210
+#: inc/php/settings_page.php:209
 msgid ""
 "<b>C)</b> For add the icon directly to a theme files, just add one of the "
 "following code (both variants do the same) to needed place (where you want "
 "to display the button) in your theme files:"
 msgstr ""
 
-#: inc/php/settings_page.php:213
+#: inc/php/settings_page.php:212
 msgid ""
 "It's that simple! If you want more options then tell me and I will be happy "
 "to add it."
@@ -160,6 +154,13 @@ msgstr ""
 
 #. Plugin URI of the plugin/theme
 msgid "https://github.com/ArthurGareginyan/rss-feed-icon"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Easily add the RSS feed icon in any place of your website. It will be "
+"responsive and compatible with all major browsers. It will work with any "
+"theme!"
 msgstr ""
 
 #. Author of the plugin/theme

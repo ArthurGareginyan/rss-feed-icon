@@ -37,8 +37,7 @@ function RssFeedIcon_render_submenu_page() {
                     <div id="about" class="postbox">
                         <h3 class="title"><?php _e( 'About', RSSFI_TEXT ); ?></a></h3>
                         <div class="inside">
-                            <p><?php _e( 'This plugin allows you to easily add RSS feed icon in any place on your website.', RSSFI_TEXT ); ?></p>
-                            <p><?php _e( 'RSS feed icon allows your visitors to receive messages from your Blog/RSS feed by email.', RSSFI_TEXT ); ?></p>
+                            <p><?php _e( 'This plugin allows you to easily add the RSS feed icon in any place on your website. RSS feed icon allows your visitors to receive messages from your Blog/RSS feed by email.', RSSFI_TEXT ); ?></p>
                         </div>
                     </div>
 
