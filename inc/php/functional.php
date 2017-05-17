@@ -42,21 +42,76 @@ function RssFeedIcon_image_uploader( $name, $width, $height, $options ) {
 }
 
 /**
- * ShortCode
+ * Render checkboxes and fields for saving settings data to BD
  *
- * @since 2.0
+ * @since 2.1
+ */
+function RssFeedIcon_setting( $name, $label, $help=null, $field=null, $placeholder=null, $size=null ) {
+
+    // Declare variables
+    $options = get_option( 'RssFeedIcon_settings' );
+
+    if ( !empty( $options[$name] ) ) {
+        $value = esc_textarea( $options[$name] );
+    } else {
+        $value = "";
+    }
+
+    // Generate the table
+    if ( !empty( $options[$name] ) ) {
+        $checked = "checked='checked'";
+    } else {
+        $checked = "";
+    }
+
+    if ( $field == "check" ) {
+        $input = "<input type='checkbox' name='RssFeedIcon_settings[$name]' id='RssFeedIcon_settings[$name]' $checked >";
+    } elseif ( $field == "field" ) {
+        $input = "<input type='text' name='RssFeedIcon_settings[$name]' id='RssFeedIcon_settings[$name]' size='$size' value='$value' placeholder='$placeholder'>";
+    }
+
+    // Put table to the variables $out and $help_out
+    $out = "<tr>
+                <th scope='row'>
+                    $label
+                </th>
+                <td>
+                    $input
+                </td>
+            </tr>";
+    if ( !empty( $help ) ) {
+        $help_out = "<tr>
+                        <td></td>
+                        <td class='help-text'>
+                            $help
+                        </td>
+                     </tr>";
+    } else {
+        $help_out = "";
+    }
+
+    // Print the generated table
+    echo $out . $help_out;
+}
+
+/**
+ * Generate the button and make shortcode
+ *
+ * @since 2.1
  */
 function RssFeedIcon_shortcode() {
 
-    // Set variables
+    // Read options from BD, sanitiz data and declare variables
     $options = get_option( 'RssFeedIcon_settings' );
 
+    // Set link to RSS feed
     if ( !empty( $options['feed_link'] ) ) {
         $feed_link = $options['feed_link'];
     } else {
         $feed_link = '/?feed=rss';
     }
 
+    // Set icon
     if ( !empty( $options['custom_icon'] ) ) {
         $image_attributes = wp_get_attachment_image_src( $options['custom_icon'] );
         $icon_src = $image_attributes[0];
@@ -68,24 +123,32 @@ function RssFeedIcon_shortcode() {
         }
     }
 
-    if ( !empty( $options['icon_size'] ) ) {
-        $icon_size = $options['icon_size'];
+    // Enable Tolltips
+    if ( !empty( $options['tooltip'] ) ) {
+        $tooltip = 'data-toggle="tooltip"';
     } else {
-        $icon_size = '60';
+        $tooltip = '';
+    }
+
+    // Set text of tooltip
+    if ( !empty( $options['tooltip_text'] ) ) {
+        $tooltip_text = $options['tooltip_text'];
+    } else {
+        $tooltip_text = 'RSS Feed';
     }
 
     // Generating output code
     return '<a
                 href="' . $feed_link . '"
+                ' . $tooltip . '
+                title="' . $tooltip_text . '"
                 target="_blank"
                 rel="nofollow"
-                style="text-decoration: none;"
+                class="RssFeedIcon"
             >
             <img
                 src="' . $icon_src . '"
-                height="' . $icon_size . '"
-                title="RSS Feed"
-                style="border: none;"
+                alt="' . $tooltip_text . '"
             />
             </a>';
 }

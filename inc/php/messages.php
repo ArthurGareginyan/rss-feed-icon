@@ -16,7 +16,7 @@ function RssFeedIcon_hello_message() {
 
     $options = get_option( 'RssFeedIcon_settings' );
 
-    if ( !empty($options) ) {
+    if ( !empty( $options ) ) {
         return;
     }
 

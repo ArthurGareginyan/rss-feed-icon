@@ -10,7 +10,7 @@ defined('ABSPATH') or die("Restricted access!");
 /**
  * Render Settings Tab
  *
- * @since 2.0
+ * @since 2.1
  */
 ?>
     <!-- SIDEBAR -->
@@ -53,11 +53,6 @@ defined('ABSPATH') or die("Restricted access!");
                 <form name="RssFeedIcon-form" action="options.php" method="post" enctype="multipart/form-data">
                     <?php settings_fields( 'RssFeedIcon_settings_group' ); ?>
 
-                    <?php
-                        // Get options from the BD
-                        $options = get_option( 'RssFeedIcon_settings' );
-                    ?>
-
                     <div class="postbox" id="Settings">
                         <h3 class="title"><?php _e( 'Main Settings', RSSFI_TEXT ); ?></h3>
                         <div class="inside">
@@ -65,36 +60,33 @@ defined('ABSPATH') or die("Restricted access!");
 
                             <table class="form-table">
 
-                                <tr>
-                                    <th scope='row'>
-                                        <?php _e( 'RSS feed link', RSSFI_TEXT ); ?>
-                                    </th>
-                                    <td>
-                                        <input type="text" name="RssFeedIcon_settings[feed_link]" id="RssFeedIcon_settings[feed_link]" placeholder="http://" value="<?php echo $options['feed_link']; ?>" size="50" >
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                    </td>
-                                    <td class='help-text'>
-                                        <?php _e( 'You can set a custom link to RSS feed of your website. Leave blank to use the default WordPress RSS feed link. Example: \'http://www.example.com/?feed=rss\'', RSSFI_TEXT ); ?>
-                                    </td>
-                                </tr>
+                                <?php RssFeedIcon_setting( 'feed_link',
+                                                           __( 'RSS feed link', RSSFI_TEXT ),
+                                                           __( 'You can set a custom link to RSS feed of your website. Leave blank to use the default WordPress RSS feed link. Example: \'http://www.example.com/?feed=rss\'', RSSFI_TEXT ),
+                                                           'field',
+                                                           'http://',
+                                                           '50'
+                                                          );
+                                ?>
 
                                 <tr>
                                     <th scope='row'>
                                         <?php _e( 'RSS feed icon', RSSFI_TEXT ); ?>
                                     </th>
                                     <td>
-                                        <?php RssFeedIcon_image_uploader( 'custom_icon', $width = 115, $height = 115, $options ); ?>
 
                                         <?php
+                                            // Get options from the BD
+                                            $options = get_option( 'RssFeedIcon_settings' );
+
                                             if ( !empty( $options['integrated_icon'] ) ) {
                                                 $integrated_icon = $options['integrated_icon'];
                                             } else {
                                                 $integrated_icon = '8';
                                             }
                                         ?>
+
+                                        <?php RssFeedIcon_image_uploader( 'custom_icon', $width = 115, $height = 115, $options ); ?>
 
                                         <div class="integrated-icons">
                                             <table width="50%" border="0" cellspacing="15" cellpadding="0">
@@ -146,21 +138,30 @@ defined('ABSPATH') or die("Restricted access!");
                                     </td>
                                 </tr>
 
-                                <tr>
-                                    <th scope='row'>
-                                        <?php _e( 'Size of icon', RSSFI_TEXT ); ?>
-                                    </th>
-                                    <td>
-                                        <input type="text" name="RssFeedIcon_settings[icon_size]" id="RssFeedIcon_settings[icon_size]" value="<?php echo $options['icon_size']; ?>" placeholder="60" size="3">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                    </td>
-                                    <td class='help-text'>
-                                        <?php _e( 'You can set the height of icon (in px).', RSSFI_TEXT ); ?>
-                                    </td>
-                                </tr>
+                                <?php RssFeedIcon_setting( 'icon_size',
+                                                           __( 'Icon size', RSSFI_TEXT ),
+                                                           __( 'You can set the height of icon (in px).', RSSFI_TEXT ),
+                                                           'field',
+                                                           '60',
+                                                           '2'
+                                                          );
+                                ?>
+
+                                <?php RssFeedIcon_setting( 'tooltip',
+                                                           __( 'Tooltip', RSSFI_TEXT ),
+                                                           __( 'Enable/disable a tooltip above button.', RSSFI_TEXT ),
+                                                           'check'
+                                                         );
+                                ?>
+
+                                <?php RssFeedIcon_setting( 'tooltip_text',
+                                                           __( 'Text of tooltip', RSSFI_TEXT ),
+                                                           __( 'You can set a custom text of tooltip. Leave blank to use the default text.', RSSFI_TEXT ),
+                                                           'field',
+                                                           'RSS Feed',
+                                                           '50'
+                                                          );
+                                ?>
 
                             </table>
 
