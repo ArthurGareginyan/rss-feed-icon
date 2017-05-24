@@ -5,7 +5,7 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Image Uploader
@@ -44,12 +44,12 @@ function RssFeedIcon_image_uploader( $name, $width, $height, $options ) {
 /**
  * Render checkboxes and fields for saving settings data to BD
  *
- * @since 2.1
+ * @since 2.2
  */
 function RssFeedIcon_setting( $name, $label, $help=null, $field=null, $placeholder=null, $size=null ) {
 
-    // Declare variables
-    $options = get_option( 'RssFeedIcon_settings' );
+    // Read options from BD
+    $options = get_option( RSSFI_SETTINGS . '_settings' );
 
     if ( !empty( $options[$name] ) ) {
         $value = esc_textarea( $options[$name] );
@@ -65,9 +65,9 @@ function RssFeedIcon_setting( $name, $label, $help=null, $field=null, $placehold
     }
 
     if ( $field == "check" ) {
-        $input = "<input type='checkbox' name='RssFeedIcon_settings[$name]' id='RssFeedIcon_settings[$name]' $checked >";
+        $input = "<input type='checkbox' name='" . RSSFI_SETTINGS . "_settings[$name]' id='" . RSSFI_SETTINGS . "_settings[$name]' $checked >";
     } elseif ( $field == "field" ) {
-        $input = "<input type='text' name='RssFeedIcon_settings[$name]' id='RssFeedIcon_settings[$name]' size='$size' value='$value' placeholder='$placeholder'>";
+        $input = "<input type='text' name='" . RSSFI_SETTINGS . "_settings[$name]' id='" . RSSFI_SETTINGS . "_settings[$name]' size='$size' value='$value' placeholder='$placeholder' >";
     }
 
     // Put table to the variables $out and $help_out
@@ -97,12 +97,12 @@ function RssFeedIcon_setting( $name, $label, $help=null, $field=null, $placehold
 /**
  * Generate the button and make shortcode
  *
- * @since 2.1
+ * @since 2.2
  */
 function RssFeedIcon_shortcode() {
 
-    // Read options from BD, sanitiz data and declare variables
-    $options = get_option( 'RssFeedIcon_settings' );
+    // Read options from BD
+    $options = get_option( RSSFI_SETTINGS . '_settings' );
 
     // Set link to RSS feed
     if ( !empty( $options['feed_link'] ) ) {
@@ -152,7 +152,7 @@ function RssFeedIcon_shortcode() {
             />
             </a>';
 }
-add_shortcode( 'rss-feed-icon', 'RssFeedIcon_shortcode' );
+add_shortcode( 'rss-feed-icon', RSSFI_PREFIX . '_shortcode' );
 
 /**
  * Allow shortcodes in the text widget

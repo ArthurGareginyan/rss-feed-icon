@@ -5,26 +5,23 @@
  *
  * @since 0.1
  */
-defined('ABSPATH') or die("Restricted access!");
+defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
- * Base for the _load_scripts hook & Dymamic CSS for the _load_scripts hook
+ * Base for the _load_scripts hook
  *
- * @since 2.1
+ * @since 2.2
  */
-function RssFeedIcon_load_scripts_base() {
+function RssFeedIcon_load_scripts_base( $options ) {
 
     // Load JQuery library
     wp_enqueue_script( 'jquery' );
 
     // Style sheet
-    wp_enqueue_style( 'RssFeedIcon-frontend-css', RSSFI_URL . 'inc/css/frontend.css' );
+    wp_enqueue_style( RSSFI_PREFIX . '-frontend-css', RSSFI_URL . 'inc/css/frontend.css' );
 
     // JavaScript
-    wp_enqueue_script( 'RssFeedIcon-frontend-js', RSSFI_URL . 'inc/js/frontend.js' );
-
-    // Read options from BD, sanitiz data and declare variables
-    $options = get_option( 'RssFeedIcon_settings' );
+    wp_enqueue_script( RSSFI_PREFIX . '-frontend-js', RSSFI_URL . 'inc/js/frontend.js' );
 
     // Size of icon
     if ( !empty( $options['icon_size'] ) ) {
@@ -33,7 +30,7 @@ function RssFeedIcon_load_scripts_base() {
         $icon_size = '60';
     }
 
-    // Dynamic CSS
+    // Dynamic CSS. Create CSS and injected it into the stylesheet
     $custom_css = "
                     .RssFeedIcon {
                         
@@ -43,60 +40,65 @@ function RssFeedIcon_load_scripts_base() {
                         height: " . $icon_size . "px !important;
                     }
                   ";
-
-    // Inject dynamic CSS
-    wp_add_inline_style( 'RssFeedIcon-frontend-css', $custom_css );
+    wp_add_inline_style( RSSFI_PREFIX . '-frontend-css', $custom_css );
 
 }
 
 /**
  * Load scripts and style sheet for settings page
  *
- * @since 2.1
+ * @since 2.2
  */
 function RssFeedIcon_load_scripts_admin( $hook ) {
 
     // Return if the page is not a settings page of this plugin
-    if ( 'settings_page_rss-feed-icon' != $hook ) {
+    $settings_page = 'settings_page_' . RSSFI_SLUG;
+    if ( $settings_page != $hook ) {
         return;
     }
+
+    // Read options from BD
+    $options = get_option( RSSFI_SETTINGS . '_settings' );
 
     // WordPress library
     wp_enqueue_media();
 
     // Style sheet
-    wp_enqueue_style( 'RssFeedIcon-admin-css', RSSFI_URL . 'inc/css/admin.css' );
+    wp_enqueue_style( RSSFI_PREFIX . '-admin-css', RSSFI_URL . 'inc/css/admin.css' );
 
     // JavaScript
-    wp_enqueue_script( 'RssFeedIcon-admin-js', RSSFI_URL . 'inc/js/admin.js', array(), false, true );
+    wp_enqueue_script( RSSFI_PREFIX . '-admin-js', RSSFI_URL . 'inc/js/admin.js', array(), false, true );
 
     // Bootstrap library
-    wp_enqueue_style( 'RssFeedIcon-bootstrap-css', RSSFI_URL . 'inc/lib/bootstrap/bootstrap.css' );
-    wp_enqueue_style( 'RssFeedIcon-bootstrap-theme-css', RSSFI_URL . 'inc/lib/bootstrap/bootstrap-theme.css' );
-    wp_enqueue_script( 'RssFeedIcon-bootstrap-js', RSSFI_URL . 'inc/lib/bootstrap/bootstrap.js' );
+    wp_enqueue_style( RSSFI_PREFIX . '-bootstrap-css', RSSFI_URL . 'inc/lib/bootstrap/bootstrap.css' );
+    wp_enqueue_style( RSSFI_PREFIX . '-bootstrap-theme-css', RSSFI_URL . 'inc/lib/bootstrap/bootstrap-theme.css' );
+    wp_enqueue_script( RSSFI_PREFIX . '-bootstrap-js', RSSFI_URL . 'inc/lib/bootstrap/bootstrap.js' );
 
     // Other libraries
-    wp_enqueue_script( 'RssFeedIcon-bootstrap-checkbox-js', RSSFI_URL . 'inc/lib/bootstrap-checkbox.js' );
+    wp_enqueue_script( RSSFI_PREFIX . '-bootstrap-checkbox-js', RSSFI_URL . 'inc/lib/bootstrap-checkbox.js' );
 
-    // Call the function with a basis of scripts
-    RssFeedIcon_load_scripts_base();
+    // Call the function that contain a basis of scripts
+    RssFeedIcon_load_scripts_base( $options );
 
 }
-add_action( 'admin_enqueue_scripts', 'RssFeedIcon_load_scripts_admin' );
+add_action( 'admin_enqueue_scripts', RSSFI_PREFIX . '_load_scripts_admin' );
 
 /**
- * Load scripts and style sheet for front end
+ * Load scripts and style sheet for front end of website
  *
- * @since 2.1
+ * @since 2.2
  */
 function RssFeedIcon_load_scripts_frontend() {
 
-    // Call the function with a basis of scripts
-    RssFeedIcon_load_scripts_base();
+    // Read options from BD
+    $options = get_option( RSSFI_SETTINGS . '_settings' );
+
+    // Call the function that contain a basis of scripts
+    RssFeedIcon_load_scripts_base( $options );
 
     // Other libraries
-    wp_enqueue_style( 'RssFeedIcon-bootstrap-tooltip-css', RSSFI_URL . 'inc/lib/bootstrap-tooltip/bootstrap-tooltip.css' );
-    wp_enqueue_script( 'RssFeedIcon-bootstrap-tooltip-js', RSSFI_URL . 'inc/lib/bootstrap-tooltip/bootstrap-tooltip.js' );
+    wp_enqueue_style( RSSFI_PREFIX . '-bootstrap-tooltip-css', RSSFI_URL . 'inc/lib/bootstrap-tooltip/bootstrap-tooltip.css' );
+    wp_enqueue_script( RSSFI_PREFIX . '-bootstrap-tooltip-js', RSSFI_URL . 'inc/lib/bootstrap-tooltip/bootstrap-tooltip.js' );
 
 }
-add_action( 'wp_enqueue_scripts', 'RssFeedIcon_load_scripts_frontend' );
+add_action( 'wp_enqueue_scripts', RSSFI_PREFIX . '_load_scripts_frontend' );
