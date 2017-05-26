@@ -5,27 +5,25 @@
  * Description: Easily add the RSS feed icon in any place of your website. It will be responsive and compatible with all major browsers. It will work with any theme!
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.2
+ * Version: 2.3
  * License: GPL3
  * Text Domain: rss-feed-icon
  * Domain Path: /languages/
  *
  * Copyright 2016-2017 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
  *
- * This file is part of "RSS Feed Icon".
- *
- * "RSS Feed Icon" is free software: you can redistribute it and/or modify
+ * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * "RSS Feed Icon" is distributed in the hope that it will be useful,
+ * This plugin is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with "RSS Feed Icon".  If not, see <http://www.gnu.org/licenses/>.
+ * along with this plugin. If not, see <http://www.gnu.org/licenses/>.
  *
  *
  *               █████╗ ██████╗ ████████╗██╗  ██╗██╗   ██╗██████╗
@@ -55,27 +53,34 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Define global constants
  *
- * @since 2.2
+ * @since 2.3
  */
-defined( 'RSSFI_DIR' ) or define( 'RSSFI_DIR', dirname( plugin_basename( __FILE__ ) ) );
-defined( 'RSSFI_BASE' ) or define( 'RSSFI_BASE', plugin_basename( __FILE__ ) );
-defined( 'RSSFI_URL' ) or define( 'RSSFI_URL', plugin_dir_url( __FILE__ ) );
-defined( 'RSSFI_PATH' ) or define( 'RSSFI_PATH', plugin_dir_path( __FILE__ ) );
-defined( 'RSSFI_TEXT' ) or define( 'RSSFI_TEXT', 'rss-feed-icon' );
-defined( 'RSSFI_SLUG' ) or define( 'RSSFI_SLUG', 'rss-feed-icon' );
-defined( 'RSSFI_PREFIX' ) or define( 'RSSFI_PREFIX', 'RssFeedIcon' );
-defined( 'RSSFI_SETTINGS' ) or define( 'RSSFI_SETTINGS', 'RssFeedIcon' );
-defined( 'RSSFI_NAME' ) or define( 'RSSFI_NAME', 'RSS Feed Icon' );
-defined( 'RSSFI_VERSION' ) or define( 'RSSFI_VERSION', get_file_data( __FILE__, array( 'Version' ) ) );
+$plugin_data = get_file_data( __FILE__, array( 'name'=>'Plugin Name', 'version'=>'Version', 'text'=>'Text Domain' ) );
+function RssFeedIcon_define_constants( $constant_name, $value ) {
+    $constant_name = 'RSSFI_' . $constant_name;
+    if ( !defined( $constant_name ) )
+        define( $constant_name, $value );
+}
+RssFeedIcon_define_constants( 'DIR', dirname( plugin_basename( __FILE__ ) ) );
+RssFeedIcon_define_constants( 'BASE', plugin_basename( __FILE__ ) );
+RssFeedIcon_define_constants( 'URL', plugin_dir_url( __FILE__ ) );
+RssFeedIcon_define_constants( 'PATH', plugin_dir_path( __FILE__ ) );
+RssFeedIcon_define_constants( 'SLUG', dirname( plugin_basename( __FILE__ ) ) );
+RssFeedIcon_define_constants( 'NAME', $plugin_data['name'] );
+RssFeedIcon_define_constants( 'VERSION', $plugin_data['version'] );
+RssFeedIcon_define_constants( 'TEXT', $plugin_data['text'] );
+RssFeedIcon_define_constants( 'PREFIX', 'RssFeedIcon' );
+RssFeedIcon_define_constants( 'SETTINGS', 'RssFeedIcon' );
 
 /**
  * Load the plugin modules
  *
- * @since 2.0
+ * @since 2.3
  */
 require_once( RSSFI_PATH . 'inc/php/core.php' );
-require_once( RSSFI_PATH . 'inc/php/enqueue.php' );
+require_once( RSSFI_PATH . 'inc/php/upgrade.php' );
 require_once( RSSFI_PATH . 'inc/php/version.php' );
+require_once( RSSFI_PATH . 'inc/php/enqueue.php' );
 require_once( RSSFI_PATH . 'inc/php/functional.php' );
 require_once( RSSFI_PATH . 'inc/php/page.php' );
 require_once( RSSFI_PATH . 'inc/php/messages.php' );

@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 /**
  * Render Settings Tab
  *
- * @since 2.2
+ * @since 2.3
  */
 ?>
     <!-- SIDEBAR -->
@@ -54,11 +54,11 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <?php settings_fields( RSSFI_SETTINGS . '_settings_group' ); ?>
 
                     <?php
-                        // Get options from the BD
+                        // Get options from the database
                         $options = get_option( RSSFI_SETTINGS . '_settings' );
 
-                        // Set default value if the option is empty
-                        $integrated_icon = isset( $options['integrated_icon'] ) && !empty( $options['integrated_icon'] ) ? $options['integrated_icon'] : '8';
+                        // Set default value if option is empty
+                        $integrated_icon = !empty( $options['integrated_icon'] ) ? $options['integrated_icon'] : '8';
                     ?>
 
                     <div class="postbox" id="Settings">

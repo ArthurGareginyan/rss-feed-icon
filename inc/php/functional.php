@@ -42,7 +42,7 @@ function RssFeedIcon_image_uploader( $name, $width, $height, $options ) {
 }
 
 /**
- * Render checkboxes and fields for saving settings data to BD
+ * Render checkboxes and fields for saving settings data to database
  *
  * @since 2.2
  */
