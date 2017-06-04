@@ -5,7 +5,7 @@
  * Description: Easily add the RSS feed icon in any place of your website. It will be responsive and compatible with all major browsers. It will work with any theme!
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.3
+ * Version: 2.4
  * License: GPL3
  * Text Domain: rss-feed-icon
  * Domain Path: /languages/
@@ -79,7 +79,7 @@ RssFeedIcon_define_constants( 'SETTINGS', 'RssFeedIcon' );
  */
 require_once( RSSFI_PATH . 'inc/php/core.php' );
 require_once( RSSFI_PATH . 'inc/php/upgrade.php' );
-require_once( RSSFI_PATH . 'inc/php/version.php' );
+require_once( RSSFI_PATH . 'inc/php/versioning.php' );
 require_once( RSSFI_PATH . 'inc/php/enqueue.php' );
 require_once( RSSFI_PATH . 'inc/php/functional.php' );
 require_once( RSSFI_PATH . 'inc/php/page.php' );

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RSS Feed Icon\n"
-"POT-Creation-Date: 2017-05-23 08:35+0300\n"
-"PO-Revision-Date: 2017-05-23 08:35+0300\n"
+"POT-Creation-Date: 2017-06-04 13:32+0300\n"
+"PO-Revision-Date: 2017-06-04 13:32+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -67,8 +67,8 @@ msgstr "F.A.Q."
 msgid "Author"
 msgstr "Автор"
 
-#: inc/php/page.php:44 inc/php/page.php:174 inc/php/settings.php:28
-#: inc/php/settings.php:185
+#: inc/php/page.php:44 inc/php/page.php:174 inc/php/settings.php:29
+#: inc/php/settings.php:182
 msgid "Support"
 msgstr "Поддержка"
 
@@ -281,7 +281,11 @@ msgstr ""
 "вашем веб-сайте. Иконка RSS ленты позволяет посетителям получать сообщения с "
 "вашего блога/RSS-канала по электронной почте."
 
-#: inc/php/settings.php:30 inc/php/settings.php:187
+#: inc/php/settings.php:24
+msgid "Version"
+msgstr ""
+
+#: inc/php/settings.php:31 inc/php/settings.php:184
 msgid ""
 "I'm an independent developer, without a regular income, so every little "
 "contribution helps cover my costs and lets me spend more time building "
@@ -291,35 +295,35 @@ msgstr ""
 "вклад помогает мне покрыть затраты и позволяет тратить больше времени на "
 "создание программ для людей как вы."
 
-#: inc/php/settings.php:31 inc/php/settings.php:188
+#: inc/php/settings.php:32 inc/php/settings.php:185
 msgid "Donate with PayPal"
 msgstr ""
 
-#: inc/php/settings.php:32 inc/php/settings.php:189
+#: inc/php/settings.php:33 inc/php/settings.php:186
 msgid "Thanks for your support!"
 msgstr "Спасибо за вашу поддержку!"
 
-#: inc/php/settings.php:37
+#: inc/php/settings.php:38
 msgid "Help"
 msgstr "Помощь"
 
-#: inc/php/settings.php:39
+#: inc/php/settings.php:40
 msgid "Got something to say? Need help?"
 msgstr "Есть что сказать? Нужна помощь?"
 
-#: inc/php/settings.php:57
+#: inc/php/settings.php:66
 msgid "Main Settings"
 msgstr "Основные Настройки"
 
-#: inc/php/settings.php:59
+#: inc/php/settings.php:68
 msgid "There you can configure this plugin."
 msgstr "Здесь вы можете настроить этот плагин."
 
-#: inc/php/settings.php:64
+#: inc/php/settings.php:73
 msgid "RSS feed link"
 msgstr "Ссылка на RSS ленту"
 
-#: inc/php/settings.php:65
+#: inc/php/settings.php:74
 msgid ""
 "You can set a custom link to RSS feed of your website. Leave blank to use "
 "the default WordPress RSS feed link. Example: 'http://www.example.com/?"
@@ -329,11 +333,11 @@ msgstr ""
 "Можете оставить пустым для того, чтобы использовать стандартную для "
 "WordPress ссылку на RSS ленту. Пример: ‘http://www.example.com/?feed=rss’"
 
-#: inc/php/settings.php:74
+#: inc/php/settings.php:83
 msgid "RSS feed icon"
 msgstr "Иконка RSS ленты"
 
-#: inc/php/settings.php:137
+#: inc/php/settings.php:134
 msgid ""
 "You can choose icon from above or upload your own icon. You can find the "
 "coolest icons on the <a href=\"https://www.iconfinder.com/search/?q=rss"
@@ -345,42 +349,42 @@ msgstr ""
 "iconfinder.com/search/?q=rss+feed&ref=ArthurGareginyan\" target=\"_blank\" "
 "rel=\"nofollow\" >IconFinder.com.</a>"
 
-#: inc/php/settings.php:142
+#: inc/php/settings.php:139
 msgid "Icon size"
 msgstr "Размер иконки"
 
-#: inc/php/settings.php:143
+#: inc/php/settings.php:140
 msgid "You can set the height of icon (in px)."
 msgstr "Вы можете установить высоту иконки (в px)."
 
-#: inc/php/settings.php:151
+#: inc/php/settings.php:148
 msgid "Tooltip"
 msgstr "Подсказка"
 
-#: inc/php/settings.php:152
+#: inc/php/settings.php:149
 msgid "Enable/disable a tooltip above button."
 msgstr "Включить/выключить всплывающюю подсказку над кнопкой."
 
-#: inc/php/settings.php:158
+#: inc/php/settings.php:155
 msgid "Text of tooltip"
 msgstr "Текст подсказки"
 
-#: inc/php/settings.php:159
+#: inc/php/settings.php:156
 msgid ""
 "You can set a custom text of tooltip. Leave blank to use the default text."
 msgstr ""
 "Вы можете задать произвольный текст всплывающей подсказки. Оставьте пустым "
 "для того, чтобы использовать текст по умолчанию."
 
-#: inc/php/settings.php:168
+#: inc/php/settings.php:165
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: inc/php/settings.php:174
+#: inc/php/settings.php:171
 msgid "Preview"
 msgstr "Предварительный просмотр"
 
-#: inc/php/settings.php:176
+#: inc/php/settings.php:173
 msgid "Click the \"Save Changes\" button to update this preview."
 msgstr ""
 "Нажмите кнопку «Сохранить изменения», чтобы обновить этот пред. просмотр."
