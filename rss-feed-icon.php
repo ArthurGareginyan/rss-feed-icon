@@ -5,12 +5,12 @@
  * Description: Easily add the RSS feed icon in any place of your website. It will be responsive and compatible with all major browsers. It will work with any theme!
  * Author: Arthur Gareginyan
  * Author URI: http://www.arthurgareginyan.com
- * Version: 2.4
+ * Version: 2.5
  * License: GPL3
  * Text Domain: rss-feed-icon
  * Domain Path: /languages/
  *
- * Copyright 2016-2017 Arthur Gareginyan (email : arthurgareginyan@gmail.com)
+ * Copyright 2016-2017 Arthur Gareginyan ( website : http://www.arthurgareginyan.com )
  *
  * This plugin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

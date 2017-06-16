@@ -18,6 +18,7 @@ function RssFeedIcon_versioning() {
     //                       SETTING VARIABLES                       //
     ///////////////////////////////////////////////////////////////////
 
+    // Put value of constants to variables for easier access
     $version_files = RSSFI_VERSION;
     $settings = RSSFI_SETTINGS;
 
