@@ -4,7 +4,7 @@ Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, su
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 2.5
+Stable tag: 2.5.1
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,7 +12,7 @@ Easily add the RSS feed icon in any place of your website. It will be responsive
 
 
 == Description ==
-An easy to use, with intuitive interface WordPress plugin that lets you easily add the RSS feed icon by using a simple shortcode in any place of your website, such as: header, post content , page content, sidebar and/or footer. RSS feed icon allows your visitors to receive messages from your Blog/RSS feed by email.
+An easy to use, with intuitive interface, WordPress plugin that lets you easily add the RSS feed icon by using a simple shortcode in any place of your website, such as: header, post content , page content, sidebar and/or footer. RSS feed icon allows your visitors to receive messages from your Blog/RSS feed by email.
 
 This plugin give you finer control over RSS feed icon, it can be configured on the plugin settings page. You can choose one of integrated RSS feed icons or upload your own icon. You can change the size of icon, and etc. If you want more options then tell me and I will be happy to add it.
 
@@ -44,15 +44,13 @@ This plugin is ready for translation and has already been translated into severa
 * English (default)
 * Russian
 
-Maybe not all existed translations are up to date. You are welcome to contribute corrections!
-
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/rss-feed-icon).
 
 >**Contribution**
 >
 >Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
 >
->* [Donate](http://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+>* [Donate](https://www.arthurgareginyan.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
 >* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/rss-feed-icon?rate=5#postform) this plugin.
 >* [Share with me](mailto:arthurgareginyan@gmail.com) or view the [GitHub Repo](https://github.com/ArthurGareginyan/rss-feed-icon) if you have any ideas or suggestions to make this plugin better.
 
@@ -111,7 +109,7 @@ A. Please visit the [Dedicated Plugin Page on GitHub](https://github.com/ArthurG
 A. Any suggestions are very welcome! Please send me an email to [arthurgareginyan@gmail.com](mailto:arthurgareginyan@gmail.com). Thank you!
 
 = Q. I love this plugin! Can I help somehow? =
-A. Yes, any financial contributions are welcome! Just visit [my website](http://www.arthurgareginyan.com/donate.html), click on the donate button, and thank you!
+A. Yes, any financial contributions are welcome! Just visit [my website](https://www.arthurgareginyan.com/donate.html), click on the donate button, and thank you!
 
 
 == Screenshots ==
@@ -121,7 +119,7 @@ A. Yes, any financial contributions are welcome! Just visit [my website](http://
 
 == Other Notes ==
 
-"RSS Feed Icon" is one of the personal software projects of [Arthur Gareginyan](http://www.arthurgareginyan.com).
+"RSS Feed Icon" is one of the personal software projects of [Arthur Gareginyan](https://www.arthurgareginyan.com).
 
 **License**
 
@@ -130,8 +128,8 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-* The icon of plugin is a copyrighted image created by [Arthur Gareginyan](http://www.arthurgareginyan.com). (C) All rights reserved.
-* The banner of plugin is a copyrighted image created by [Arthur Gareginyan](http://www.arthurgareginyan.com). (C) All rights reserved.
+* The icon of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
+* The banner of plugin is a copyrighted image created by [Arthur Gareginyan](https://www.arthurgareginyan.com). (C) All rights reserved.
 * Icon 1.png by [Webdesigner Depot](https://www.iconfinder.com/icons/40405/feed_rss_sticker_icon?ref=ArthurGareginyan).
 * Icon 2.png by [Clay Cauley](https://www.iconfinder.com/icons/60716/feed_rss_sticker_icon?ref=ArthurGareginyan).
 * Icon 3.png by [NarjisNaqvi](https://www.iconfinder.com/icons/14715/feed_rss_icon?ref=ArthurGareginyan).
@@ -145,11 +143,15 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Links**
 
-* [Developer Website](http://www.arthurgareginyan.com)
+* [Developer Website](https://www.arthurgareginyan.com)
 * [Dedicated Plugin Page on GitHub](https://github.com/ArthurGareginyan/rss-feed-icon)
 
 
 == Changelog ==
+
+= 2.5.1 =
+* The HTTPS mixed content issue fixed by changing all links to HTTPS.
+* Content of the "FAQ" section updated.
 
 = 2.5 =
 * On the plugin settings page, text of buttons are corrected.
