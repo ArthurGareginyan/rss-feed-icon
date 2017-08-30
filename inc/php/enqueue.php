@@ -2,22 +2,18 @@
 
 /**
  * Prevent Direct Access
- *
- * @since 0.1
  */
 defined( 'ABSPATH' ) or die( "Restricted access!" );
 
 /**
  * Base for the _load_scripts hook
- *
- * @since 2.6
  */
-function RssFeedIcon_load_scripts_base( $options ) {
+function spacexchimp_p013_load_scripts_base( $options ) {
 
     // Put value of constants to variables for easier access
-    $slug = RSSFI_SLUG;
-    $prefix = RSSFI_PREFIX;
-    $url = RSSFI_URL;
+    $slug = SPACEXCHIMP_P013_SLUG;
+    $prefix = SPACEXCHIMP_P013_PREFIX;
+    $url = SPACEXCHIMP_P013_URL;
 
     // Load jQuery library
     wp_enqueue_script( 'jquery' );
@@ -45,16 +41,14 @@ function RssFeedIcon_load_scripts_base( $options ) {
 
 /**
  * Load scripts and style sheet for settings page
- *
- * @since 2.6
  */
-function RssFeedIcon_load_scripts_admin( $hook ) {
+function spacexchimp_p013_load_scripts_admin( $hook ) {
 
     // Put value of constants to variables for easier access
-    $slug = RSSFI_SLUG;
-    $prefix = RSSFI_PREFIX;
-    $url = RSSFI_URL;
-    $settings = RSSFI_SETTINGS;
+    $slug = SPACEXCHIMP_P013_SLUG;
+    $prefix = SPACEXCHIMP_P013_PREFIX;
+    $url = SPACEXCHIMP_P013_URL;
+    $settings = SPACEXCHIMP_P013_SETTINGS;
 
     // Return if the page is not a settings page of this plugin
     $settings_page = 'settings_page_' . $slug;
@@ -73,6 +67,9 @@ function RssFeedIcon_load_scripts_admin( $hook ) {
     wp_enqueue_style( $prefix . '-bootstrap-theme-css', $url . 'inc/lib/bootstrap/bootstrap-theme.css' );
     wp_enqueue_script( $prefix . '-bootstrap-js', $url . 'inc/lib/bootstrap/bootstrap.js' );
 
+    // Font Awesome library
+    wp_enqueue_style( $prefix . '-font-awesome-css', $url . 'inc/lib/font-awesome/css/font-awesome.css', 'screen' );
+
     // Other libraries
     wp_enqueue_script( $prefix . '-bootstrap-checkbox-js', $url . 'inc/lib/bootstrap-checkbox.js' );
 
@@ -83,40 +80,38 @@ function RssFeedIcon_load_scripts_admin( $hook ) {
     wp_enqueue_script( $prefix . '-admin-js', $url . 'inc/js/admin.js', array(), false, true );
 
     // Dynamic JS. Create JS object and injected it into the JS file
-    $plugin_url = RSSFI_URL;
+    $plugin_url = SPACEXCHIMP_P013_URL;
     $script_params = array(
                            'plugin_url' => $plugin_url
                            );
     wp_localize_script( $prefix . '-admin-js', $prefix . '_scriptParams', $script_params );
 
     // Call the function that contain a basis of scripts
-    RssFeedIcon_load_scripts_base( $options );
+    spacexchimp_p013_load_scripts_base( $options );
 
 }
-add_action( 'admin_enqueue_scripts', RSSFI_PREFIX . '_load_scripts_admin' );
+add_action( 'admin_enqueue_scripts', 'spacexchimp_p013_load_scripts_admin' );
 
 /**
  * Load scripts and style sheet for front end of website
- *
- * @since 2.5
  */
-function RssFeedIcon_load_scripts_frontend() {
+function spacexchimp_p013_load_scripts_frontend() {
 
     // Put value of constants to variables for easier access
-    $slug = RSSFI_SLUG;
-    $prefix = RSSFI_PREFIX;
-    $url = RSSFI_URL;
-    $settings = RSSFI_SETTINGS;
+    $slug = SPACEXCHIMP_P013_SLUG;
+    $prefix = SPACEXCHIMP_P013_PREFIX;
+    $url = SPACEXCHIMP_P013_URL;
+    $settings = SPACEXCHIMP_P013_SETTINGS;
 
     // Read options from database
     $options = get_option( $settings . '_settings' );
 
     // Call the function that contain a basis of scripts
-    RssFeedIcon_load_scripts_base( $options );
+    spacexchimp_p013_load_scripts_base( $options );
 
     // Other libraries
     wp_enqueue_style( $prefix . '-bootstrap-tooltip-css', $url . 'inc/lib/bootstrap-tooltip/bootstrap-tooltip.css' );
     wp_enqueue_script( $prefix . '-bootstrap-tooltip-js', $url . 'inc/lib/bootstrap-tooltip/bootstrap-tooltip.js' );
 
 }
-add_action( 'wp_enqueue_scripts', RSSFI_PREFIX . '_load_scripts_frontend' );
+add_action( 'wp_enqueue_scripts', 'spacexchimp_p013_load_scripts_frontend' );
