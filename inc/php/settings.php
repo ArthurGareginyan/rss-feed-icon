@@ -56,37 +56,37 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                             <table width="50%" border="0" cellspacing="15" cellpadding="0">
                                                 <tr>
                                                     <td>
-                                                        <input type="radio" name="RssFeedIcon_settings[integrated_icon]" value="1" <?php checked('1', $integrated_icon); ?>>
+                                                        <input type="radio" name="spacexchimp_p013_settings[integrated_icon]" value="1" <?php checked('1', $integrated_icon); ?>>
                                                         <img src="<?php echo SPACEXCHIMP_P013_URL . 'inc/img/icons/1.png'; ?>" width='48' height='48' />
                                                     </td>
                                                     <td>
-                                                        <input type="radio" name="RssFeedIcon_settings[integrated_icon]" value="2" <?php checked('2', $integrated_icon); ?>>
+                                                        <input type="radio" name="spacexchimp_p013_settings[integrated_icon]" value="2" <?php checked('2', $integrated_icon); ?>>
                                                         <img src="<?php echo SPACEXCHIMP_P013_URL . 'inc/img/icons/2.png'; ?>" width='48' height='48' />
                                                     </td>
                                                     <td>
-                                                        <input type="radio" name="RssFeedIcon_settings[integrated_icon]" value="3" <?php checked('3', $integrated_icon); ?>>
+                                                        <input type="radio" name="spacexchimp_p013_settings[integrated_icon]" value="3" <?php checked('3', $integrated_icon); ?>>
                                                         <img src="<?php echo SPACEXCHIMP_P013_URL . 'inc/img/icons/3.png'; ?>" width='48' height='48' />
                                                     </td>
                                                     <td>
-                                                        <input type="radio" name="RssFeedIcon_settings[integrated_icon]" value="4" <?php checked('4', $integrated_icon); ?>>
+                                                        <input type="radio" name="spacexchimp_p013_settings[integrated_icon]" value="4" <?php checked('4', $integrated_icon); ?>>
                                                         <img src="<?php echo SPACEXCHIMP_P013_URL . 'inc/img/icons/4.png'; ?>" width='48' height='48' />
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <input type="radio" name="RssFeedIcon_settings[integrated_icon]" value="5" <?php checked('5', $integrated_icon); ?>>
+                                                        <input type="radio" name="spacexchimp_p013_settings[integrated_icon]" value="5" <?php checked('5', $integrated_icon); ?>>
                                                         <img src="<?php echo SPACEXCHIMP_P013_URL . 'inc/img/icons/5.png'; ?>" width='48' height='48' />
                                                     </td>
                                                     <td>
-                                                        <input type="radio" name="RssFeedIcon_settings[integrated_icon]" value="6" <?php checked('6', $integrated_icon); ?>>
+                                                        <input type="radio" name="spacexchimp_p013_settings[integrated_icon]" value="6" <?php checked('6', $integrated_icon); ?>>
                                                         <img src="<?php echo SPACEXCHIMP_P013_URL . 'inc/img/icons/6.png'; ?>" width='48' height='48' />
                                                     </td>
                                                     <td>
-                                                        <input type="radio" name="RssFeedIcon_settings[integrated_icon]" value="7" <?php checked('7', $integrated_icon); ?>>
+                                                        <input type="radio" name="spacexchimp_p013_settings[integrated_icon]" value="7" <?php checked('7', $integrated_icon); ?>>
                                                         <img src="<?php echo SPACEXCHIMP_P013_URL . 'inc/img/icons/7.png'; ?>" width='48' height='48' />
                                                     </td>
                                                     <td>
-                                                        <input type="radio" name="RssFeedIcon_settings[integrated_icon]" value="8" <?php checked('8', $integrated_icon); ?>>
+                                                        <input type="radio" name="spacexchimp_p013_settings[integrated_icon]" value="8" <?php checked('8', $integrated_icon); ?>>
                                                         <img src="<?php echo SPACEXCHIMP_P013_URL . 'inc/img/icons/8.png'; ?>" width='48' height='48' />
                                                     </td>
                                                 </tr>

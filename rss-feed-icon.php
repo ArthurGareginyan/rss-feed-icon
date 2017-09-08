@@ -5,7 +5,7 @@
  * Description: Easily add the RSS feed icon in any place of your website. It will be responsive and compatible with all major browsers. It will work with any theme!
  * Author: Arthur Gareginyan
  * Author URI: https://www.arthurgareginyan.com
- * Version: 2.8
+ * Version: 2.9
  * License: GPL3
  * Text Domain: rss-feed-icon
  * Domain Path: /languages/
@@ -71,8 +71,8 @@ spacexchimp_p013_define_constants( 'SLUG', dirname( plugin_basename( __FILE__ ) 
 spacexchimp_p013_define_constants( 'NAME', $plugin_data['name'] );
 spacexchimp_p013_define_constants( 'VERSION', $plugin_data['version'] );
 spacexchimp_p013_define_constants( 'TEXT', $plugin_data['text'] );
-spacexchimp_p013_define_constants( 'PREFIX', 'RssFeedIcon' );
-spacexchimp_p013_define_constants( 'SETTINGS', 'RssFeedIcon' );
+spacexchimp_p013_define_constants( 'PREFIX', 'spacexchimp_p013' );
+spacexchimp_p013_define_constants( 'SETTINGS', 'spacexchimp_p013' );
 
 /**
  * Load the plugin modules

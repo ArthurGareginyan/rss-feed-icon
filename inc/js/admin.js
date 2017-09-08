@@ -75,7 +75,7 @@ jQuery(document).ready(function($) {
     });
 
     // Live preview
-    var plugin_url = RssFeedIcon_scriptParams["plugin_url"];
+    var plugin_url = spacexchimp_p013_scriptParams["plugin_url"];
     $('.feed_link').change(function() {
         var val = $(this).val() || 'http://';
         $('#preview .preview-icon a').attr('href',val);
