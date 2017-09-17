@@ -4,7 +4,7 @@ Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, su
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 2.10
+Stable tag: 2.11
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -155,6 +155,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 2.11 =
+* Error in the PHP constant name fixed.
 
 = 2.10 =
 * Added the top level menu item of the brand.

@@ -70,7 +70,7 @@ function spacexchimp_p013_register_submenu_page() {
 
     $parent_slug = 'spacexchimp';
     $page_title  = SPACEXCHIMP_P013_NAME;
-    $menu_title  = __( 'RSS Feed Icon', SPACEXCHIMP_P010_TEXT );
+    $menu_title  = __( 'RSS Feed Icon', SPACEXCHIMP_P013_TEXT );
     $capability  = 'manage_options';
     $menu_slug   = 'spacexchimp/' . SPACEXCHIMP_P013_SLUG;
     $function    = 'spacexchimp_p013_render_submenu_page';
