@@ -76,7 +76,7 @@ Manually via FTP access:
 4. Log into Admin Panel of your WordPress website.
 5. Activate this plugin through the "`Plugins`" tab.
 
-After installation and activation, the "`RSS Feed Icon`"  menu item will appear in the "`Space X-Chimp`" section of Admin Panel. Click on it in order to view the plugin settings page.
+After installation and activation, the "`RSS Feed Icon`"  menu item will appear in the "`Settings`" section of Admin Panel. Click on it in order to view the plugin settings page.
 
 [More help installing plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins "WordPress Codex: Installing Plugins")
 
@@ -90,7 +90,7 @@ A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) w
 A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just send the PO file to me at the arthurgareginyan@gmail.com and I will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 = Q. How does it work? =A. Simply go to the plugin settings page, select the desired settings and click the "Save changes" button. Enjoy your fancy RSS feed icon. It's that simple!
-You can find the plugin settings page at "`WP Admin Panel`" -> "`Space X-Chimp`" -> "`RSS Feed Icon`".
+You can find the plugin settings page at "`WP Admin Panel`" -> "`Settings`" -> "`RSS Feed Icon`".
 
 = Q. Does this plugin requires any modification of the theme? =
 A. Absolutely not. This plugin is configurable entirely from the plugin settings page that you can find in the Admin Panel of your WordPress website.
