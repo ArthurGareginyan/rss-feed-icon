@@ -1,5 +1,5 @@
 /*
- * WP plugin RSS Feed Icon by Space X-Chimp ( https://www.spacexchimp.com ).
+ * WordPress plugin RSS Feed Icon by Space X-Chimp ( https://www.spacexchimp.com ).
  *
  * @package     RSS Feed Icon
  * @author      Arthur Gareginyan
