@@ -5,7 +5,7 @@
  * Description: Easily add the RSS feed icon in any place of your website. It will be responsive and compatible with all major browsers. It will work with any theme!
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 2.20
+ * Version: 2.21
  * License: GPL3
  * Text Domain: rss-feed-icon
  * Domain Path: /languages/
@@ -78,4 +78,3 @@ require_once( SPACEXCHIMP_P013_PATH . 'inc/php/functional.php' );
 require_once( SPACEXCHIMP_P013_PATH . 'inc/php/controls.php' );
 require_once( SPACEXCHIMP_P013_PATH . 'inc/php/page.php' );
 require_once( SPACEXCHIMP_P013_PATH . 'inc/php/messages.php' );
-require_once( SPACEXCHIMP_P013_PATH . 'inc/php/uninstall.php' );
