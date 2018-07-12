@@ -1,6 +1,6 @@
 # RSS Feed Icon
 
-**Free Premium WordPress Plugin**
+**Free WordPress Plugin**
 
 ![screenshot](https://github.com/ArthurGareginyan/rss-feed-icon/blob/master/assets/banner-772x250.png)
 
