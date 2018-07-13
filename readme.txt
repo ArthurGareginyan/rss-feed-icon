@@ -4,7 +4,7 @@ Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, su
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 2.21
+Stable tag: 2.22
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -167,9 +167,13 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
+= 2.22 =
+* The extra mention of the constant '_SLUG'  is removed from the file 'enqueue.php'.
+* All translation files are updated.
+
 = 2.21 =
 * Fixed a bug due to which the plugin data that stored in the database to not be deleted during the uninstallation of the plugin.
-* The contents of the file 'uninstall.php is moved to the file 'core.php'. The file 'uninstall.php' is deleted.
+* The contents of the file 'uninstall.php' is moved to the file 'core.php'. The file 'uninstall.php' is deleted.
 * Some texts are corrected.
 
 = 2.20 =

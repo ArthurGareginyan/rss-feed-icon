@@ -11,7 +11,6 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 function spacexchimp_p013_load_scripts_base( $options ) {
 
     // Put value of constants to variables for easier access
-    $slug = SPACEXCHIMP_P013_SLUG;
     $prefix = SPACEXCHIMP_P013_PREFIX;
     $url = SPACEXCHIMP_P013_URL;
     $version = SPACEXCHIMP_P013_VERSION;
@@ -98,7 +97,6 @@ add_action( 'admin_enqueue_scripts', 'spacexchimp_p013_load_scripts_admin' );
 function spacexchimp_p013_load_scripts_frontend() {
 
     // Put value of constants to variables for easier access
-    $slug = SPACEXCHIMP_P013_SLUG;
     $prefix = SPACEXCHIMP_P013_PREFIX;
     $url = SPACEXCHIMP_P013_URL;
     $settings = SPACEXCHIMP_P013_SETTINGS;
