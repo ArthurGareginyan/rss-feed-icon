@@ -4,30 +4,61 @@
 
 ![screenshot](https://github.com/ArthurGareginyan/rss-feed-icon/blob/master/assets/banner-772x250.png)
 
-An easy to use and lightweight WordPress plugin that lets you easily add the RSS feed icon by using a simple shortcode in any place of your website, such as: header, post content , page content, sidebar and/or footer. RSS feed icon allows your visitors to receive messages from your Blog/RSS feed by email.
+An easy to use, with intuitive interface, WordPress plugin that lets you easily add the RSS feed icon by using a simple shortcode in any place of your website, such as: header, post content , page content, sidebar and/or footer. RSS feed icon allows your visitors to receive messages from your Blog/RSS feed by email.
 
-This plugin give you finer control over RSS feed icon, it can be configured on the plugin settings page. You can choose one of integrated RSS feed icons or upload your own icon. You can change the size of icon, and etc. If you want more options then tell me and I will be happy to add it.
+This plugin give you finer control over RSS feed icon, it can be configured on the plugin settings page. You can choose one of integrated RSS feed icons or upload your own icon. You can change the size of icon, and etc. If you want more options, let us know and we will be happy to add them.
 
 Also you don't need to edit any file of your theme, this plugin will do everything for you. It's just plug and play, no tedious configurations or hacks, just install, enable and start enjoying the RSS feed icon. RSS feed icon will be responsive and compatible with all major browsers. It will work with any theme!
 
+**Features**
 
-## Features
+* Lightweight and fast
+* Secure code with using clear coding standards
+* Intuitive interface with many settings
+* Cross browser compatible (work smooth in any modern browser)
+* Compatible with all WordPress themes
+* RTL compatible (right to left)
+* Translation ready
+* Published on [WordPess.org](http://wordpess.org/)
 
-**Current features:**
+**Key features include...**
 
-* Responsive
 * Retina support
-* Cross Browser Compatible (work smooth in any modern browser)
 * Simple shortcode for displaying the RSS feed icon
 * 8 integrated icons from IconFinder.com
 * Ability to upload your own icon
-* Ready for translation (POT file included)
+* Ability to set the size of icon
+* And much, much more!
 
-**Coming soon:**
+**Translation**
 
-* Published on [WordPess.org](http://wordpess.org/)
+This plugin is ready for translation and has already been translated into several languages.
 
-**Got more ideas? Tell me!**
+* English (default)
+* Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
+* German (translation by Michael)
+* Spanish (translation by Patricio Toledo)
+* Dutch (translation by Peter Leenders)
+
+If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/rss-feed-icon).
+
+**Minimum system requirements:**
+
+* [PHP](https://php.net) version **5.2** or higher.
+* [MySQL](https://www.mysql.com) version **5.0** or higher.
+
+**Recommended system requirements:**
+
+* [PHP](https://php.net) version **7.0** or higher.
+* [MySQL](https://www.mysql.com) version **5.6** or higher.
+
+**Contribution**
+
+Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to:
+
+* [Donate](https://www.spacexchimp.com/donate.html) to support ongoing development. Your contribution would be greatly appreciated.
+* [Rate and Review](https://wordpress.org/support/view/plugin-reviews/rss-feed-icon?rate=5#postform) this plugin.
+* [Share with us](https://www.spacexchimp.com/contact.html) or view the [GitHub Repo](https://github.com/ArthurGareginyan/rss-feed-icon) if you have any ideas or suggestions to make this plugin better.
 
 
 ## Contributing
