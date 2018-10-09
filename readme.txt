@@ -4,7 +4,7 @@ Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, su
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 2.23
+Stable tag: 2.24
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,7 +15,7 @@ Easily add the RSS feed icon in any place of your website. It will be responsive
 
 An easy to use, with intuitive interface, WordPress plugin that lets you easily add the RSS feed icon by using a simple shortcode in any place of your website, such as: header, post content , page content, sidebar and/or footer. RSS feed icon allows your visitors to receive messages from your Blog/RSS feed by email.
 
-This plugin give you finer control over RSS feed icon, it can be configured on the plugin settings page. You can choose one of integrated RSS feed icons or upload your own icon. You can change the size of icon, and etc. If you want more options then tell us and we will be happy to add it.
+This plugin give you finer control over RSS feed icon, it can be configured on the plugin settings page. You can choose one of integrated RSS feed icons or upload your own icon. You can change the size of icon, and etc. If you want more options, then let us know and we will be happy to add them.
 
 Also you don't need to edit any file of your theme, this plugin will do everything for you. It's just plug and play, no tedious configurations or hacks, just install, enable and start enjoying the RSS feed icon. RSS feed icon will be responsive and compatible with all major browsers. It will work with any theme!
 
@@ -164,9 +164,16 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 * [Developer website](https://www.spacexchimp.com)
 * [Dedicated plugin page on GitHub](https://github.com/ArthurGareginyan/rss-feed-icon)
+* [Dedicated plugin page on WordPress.org](https://wordpress.org/plugins/rss-feed-icon/)
 
 
 == Changelog ==
+
+= 2.24 =
+* Content of the "Usage Instructions" section updated.
+* CSS code, which is located in the file "admin.css" and is related to the "FAQ" section, is improved.
+* Code commenting improved.
+* Translation files are updated.
 
 = 2.23 =
 * Dutch translation added. (Thanks to Peter Leenders)
@@ -279,7 +286,7 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 * Load of the additional remote CSS file removed from the admin.js file.
 * Added missing semicolon in the admin.js file.
 * Changed the sorting of enqueueing of scripts.
-* The ''Family' page tab renamed to 'Store'.
+* The 'Family' page tab renamed to 'Store'.
 * Added ad banner of my store website.
 
 = 2.5.1 =
