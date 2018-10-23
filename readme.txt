@@ -4,7 +4,7 @@ Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, su
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 4.9
-Stable tag: 2.24
+Stable tag: 2.25
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -29,7 +29,7 @@ Also you don't need to edit any file of your theme, this plugin will do everythi
 * RTL compatible (right to left)
 * Translation ready
 
-**Key features include...**
+**Key features include**
 
 * Retina support
 * Simple shortcode for displaying the RSS feed icon
@@ -168,6 +168,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 2.25 =
+* Improvement: Design of the plugin settings page is improved.
 
 = 2.24 =
 * Content of the "Usage Instructions" section updated.
