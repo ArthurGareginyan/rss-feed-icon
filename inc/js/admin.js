@@ -4,7 +4,7 @@
  * @package     RSS Feed Icon
  * @author      Arthur Gareginyan
  * @link        https://www.spacexchimp.com
- * @copyright   Copyright (c) 2016-2018 Space X-Chimp. All Rights Reserved.
+ * @copyright   Copyright (c) 2016-2019 Space X-Chimp. All Rights Reserved.
  */
 
 
@@ -24,14 +24,14 @@ jQuery(document).ready(function($) {
 
     // Add questions and answers into spoilers and color them in different colors
     $('.panel-group .panel').each(function(i) {
-         $('.question-' + (i+1) ).appendTo( $('h4', this) );
-         $('.answer-' + (i+1) ).appendTo( $('.panel-body', this) );
+        $('.question-' + (i+1) ).appendTo( $('h4', this) );
+        $('.answer-' + (i+1) ).appendTo( $('.panel-body', this) );
 
-         if ( $(this).find('h4 div').hasClass('question-red') ) {
-             $(this).addClass('panel-danger');
-         } else {
-             $(this).addClass('panel-info');
-         }
+        if ( $(this).find('h4 div').hasClass('question-red') ) {
+            $(this).addClass('panel-danger');
+        } else {
+            $(this).addClass('panel-info');
+        }
     });
 
     // Enable switches
@@ -85,7 +85,7 @@ jQuery(document).ready(function($) {
     });
     $('.icon_size input').change(function() {
         var val = $(this).val() || '60';
-        $('#preview .preview-icon img').attr('style', 'width:' + val + 'px !important; height:' + val + 'px !important');
+        $('#preview .preview-icon img').attr('style', 'width:' + val + 'px !important; height:' + val + 'px !important;');
 
     });
     $('.tooltip').on('change', function() {
@@ -109,9 +109,17 @@ jQuery(document).ready(function($) {
             $('#preview .preview-icon img').attr('src', val);
         }
     });
-    $('.upload img').on('load', function() {
-        var val = $(this).attr('src');
-        $('#preview .preview-icon img').attr('src', val);
+    $('.upload_image_button').click(function() {
+        $('.upload img').on('load', function() {
+            var val = $(this).attr('src');
+            $('#preview .preview-icon  img').attr('src', val);
+        });
+    });
+    $('.remove_image_button').click(function() {
+        $('.upload img').on('load', function() {
+            var val = $(this).attr('src');
+            $('#preview .preview-icon img').attr('src', val);
+        });
     });
 
 });

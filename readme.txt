@@ -4,7 +4,7 @@ Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, su
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
 Tested up to: 5.0
-Stable tag: 2.26
+Stable tag: 2.27
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -45,7 +45,7 @@ This plugin is ready for translation and has already been translated into severa
 * English (default)
 * Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
 * German (translation by Michael)
-* Spanish (translation by Patricio Toledo)
+* Spanish (translation by Ramiro Garcés and Patricio Toledo)
 * Dutch (translation by Peter Leenders)
 
 If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/rss-feed-icon).
@@ -168,6 +168,15 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 2.27 =
+* Content of the "Usage" section updated.
+* The Live Preview section updated. After disabling the uploaded image it is removed from the Live Preview section.
+* Code formatting in the "admin.js" file improved.
+* Code commenting improved.
+* Fix: In the "admin.js" file, the missing semicolon is returned to its place.
+* The copyright date updated.
+* Translation files are updated.
 
 = 2.26 =
 * Improvement: Design of the plugin settings page is improved.

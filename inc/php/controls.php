@@ -32,7 +32,7 @@ function spacexchimp_p013_control_help( $help=null ) {
  */
 function spacexchimp_p013_control_field( $name, $label, $help=null, $placeholder=null ) {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P013_SETTINGS . '_settings' );
     $value = !empty( $options[$name] ) ? esc_textarea( $options[$name] ) : '';
 
@@ -65,7 +65,7 @@ function spacexchimp_p013_control_field( $name, $label, $help=null, $placeholder
  */
 function spacexchimp_p013_control_switch( $name, $label, $help=null ) {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P013_SETTINGS . '_settings' );
     $checked = !empty( $options[$name] ) ? "checked='checked'" : '';
 
@@ -97,7 +97,7 @@ function spacexchimp_p013_control_switch( $name, $label, $help=null ) {
  */
 function spacexchimp_p013_control_number( $name, $label, $help=null, $default=null ) {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P013_SETTINGS . '_settings' );
     $value = !empty( $options[$name] ) ? esc_attr( $options[$name] ) : $default;
 
@@ -142,7 +142,7 @@ function spacexchimp_p013_control_number( $name, $label, $help=null, $default=nu
  */
 function spacexchimp_p013_image_uploader( $name ) {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P013_SETTINGS . '_settings' );
     $default_image = SPACEXCHIMP_P013_URL . 'inc/img/no-image.png';
     $image_size = '115';

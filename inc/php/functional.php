@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
  */
 function spacexchimp_p013_shortcode() {
 
-    // Read options from database and declare variables
+    // Retrieve options from database and declare variables
     $options = get_option( SPACEXCHIMP_P013_SETTINGS . '_settings' );
     $feed_link = !empty( $options['feed_link'] ) ? $options['feed_link'] : '/?feed=rss';
     $tooltip = !empty( $options['tooltip'] ) ? 'data-toggle="tooltip"' : '';
