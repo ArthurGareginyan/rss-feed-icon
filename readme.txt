@@ -1,23 +1,25 @@
 === RSS Feed Icon ===
 Contributors: Arthur Gareginyan
-Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, RSS2Email, subscribe, subscription, email subscription, newsletter, newsletters, email newsletter, email newsletters, specificfeeds.com, specificfeeds, specific feeds, feedburner, feedburner alternative, иконка, значок, кнопка
+Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, rss2email, subscribe, subscription, email subscription, newsletter, newsletters, email newsletter, email newsletters, specificfeeds.com, specificfeeds, specific feeds, feedburner, feedburner alternative
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 3.9
-Tested up to: 5.0
-Stable tag: 2.27
+Tested up to: 5.1
+Stable tag: 2.28
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily add the RSS feed icon in any place of your website. It will be responsive and compatible with all major browsers. It will work with any theme!
+Easily and safely add a RSS feed icon to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website.
 
 
 == Description ==
 
-An easy to use, with intuitive interface, WordPress plugin that lets you easily add the RSS feed icon by using a simple shortcode in any place of your website, such as: header, post content , page content, sidebar and/or footer. RSS feed icon allows your visitors to receive messages from your Blog/RSS feed by email.
+An easy to use, with intuitive interface, WordPress plugin that gives you the ability to easily and safely add a RSS feed icon by using a simple shortcode to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website. RSS feed icon allows your visitors to receive messages from your Blog/RSS feed by email.
 
 This plugin give you finer control over RSS feed icon, it can be configured on the plugin settings page. You can choose one of integrated RSS feed icons or upload your own icon. You can change the size of icon, and etc. If you want more options, then let us know and we will be happy to add them.
 
-Also you don't need to edit any file of your theme, this plugin will do everything for you. It's just plug and play, no tedious configurations or hacks, just install, enable and start enjoying the RSS feed icon. RSS feed icon will be responsive and compatible with all major browsers. It will work with any theme!
+Its purpose is to provide a familiar experience to WordPress users. You don't need to edit any file of your theme, this plugin will do everything for you. It's just plug and play, no tedious configurations or hacks, just install, enable and start enjoying your fancy RSS feed icon. It's that simple! In addition, your RSS feed icon will be compatible with all major browsers and work with any theme.
+
+To use, on the plugin settings page, enter your RSS feed link, select the desired settings and click the "Save changes" button. Then you can put the [rss-feed-icon] shortcode to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website. Enjoy your fancy RSS feed icon. It's that simple!
 
 **Features**
 
@@ -40,7 +42,7 @@ Also you don't need to edit any file of your theme, this plugin will do everythi
 
 **Translation**
 
-This plugin is ready for translation and has already been translated into several languages.
+This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
 
 * English (default)
 * Russian (translation by [Milena Kiseleva](https://www.instagram.com/milava_kiseleva/))
@@ -48,7 +50,7 @@ This plugin is ready for translation and has already been translated into severa
 * Spanish (translation by Ramiro Garcés and Patricio Toledo)
 * Dutch (translation by Peter Leenders)
 
-If you want to help translate this plugin then please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/rss-feed-icon).
+If you want to help translate this plugin, please visit the [translation page](https://translate.wordpress.org/projects/wp-plugins/rss-feed-icon).
 
 **Minimum system requirements:**
 
@@ -95,11 +97,13 @@ After installation and activation, the "`RSS Feed Icon`"  menu item will appear 
 
 == Frequently Asked Questions ==
 
-= Q. Will this plugin work on my WordPress.COM website? =
-A. Sorry, this plugin is available for use only on self-hosted (WordPress.ORG) websites.
+= Q. Will this plugin work on my wordpress.COM website? =
+A. Sorry, this plugin is available for use only on self-hosted (wordpress.ORG) websites.
 
 = Q. Can I use this plugin on my language? =
-A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. The POT file is included and placed in the "`languages`" folder. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
+A. Yes. This plugin is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections. Many of plugin users would be delighted if you share your translation with the community. Thanks for your contribution!
+
+If you want to help translate this plugin, please use the POT file that is included and placed in the `languages` folder to create a translation PO file. Just [send the PO file to us](https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update.
 
 = Q. How does it work? =A. Simply go to the plugin settings page, select the desired settings and click the "Save changes" button. Enjoy your fancy RSS feed icon. It's that simple!
 You can find the plugin settings page at "`WordPress Admin Area`" -> "`Settings`" -> "`RSS Feed Icon`".
@@ -111,9 +115,9 @@ A. Absolutely not. This plugin is configurable entirely from the plugin settings
 A. Absolutely not. This plugin can be configured with no knowledge of HTML or CSS, using an easy-to-use plugin settings page.
 
 = Q. It's not working. What could be wrong? =
-A. As with every plugin, it's possible that things don't work. The most common reason for this is a web browser's cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser's cache.​ Clearing your browser's cache may solve the problem.
+A. As with every plugin, it's possible that things don't work. It's impossible to tell what could be wrong exactly. The most common reason for this is a web browser’s cache. Every web browser stores a cache of the websites you visit (pages, images, and etc.) to reduce bandwidth usage and server load. This is called the browser’s cache. Clearing your browser’s cache may solve the problem.
 
-It's impossible to tell what could be wrong exactly, but if you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
+If you post a support request in the plugin's support forum on WordPress.org, we'd be happy to give it a look and try to help out. Please include as much information as possible, including a link to your website where the problem can be seen.
 
 = Q. The last WordPress update is preventing me from editing my website that is using this plugin. Why is this? =
 A. This plugin can not cause such problem. More likely, the problem are related to the settings of the website. It could just be a cache, so please try to clear your website's cache (may be you using a caching plugin, or some web service such as the CloudFlare) and then the cache of your web browser. Also please try to re-login to the website, this too can help.
@@ -168,6 +172,15 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+= 2.28 =
+* The readme "Tested up to:" value changed to 5.1 after full testing process and ensuring compatibility.
+* Content of the "F.A.Q." section updated.
+* Some texts are corrected or replaced with new ones.
+* All translation files are updated.
+* Code formatting improved.
+* Added CSS class ".custom-list" for displaying a custom list, which is used on the plugin settings page.
+* The human.txt file updated.
 
 = 2.27 =
 * Content of the "Usage" section updated.

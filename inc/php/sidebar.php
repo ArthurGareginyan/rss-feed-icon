@@ -24,7 +24,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
             <div class="postbox about">
                 <h3 class="title"><?php _e( 'About', $text ); ?></h3>
                 <div class="inside">
-                    <p><?php _e( 'This plugin allows you to easily add the RSS feed icon in any place on your website. RSS feed icon allows your visitors to receive messages from your Blog/RSS feed by email.', $text ); ?></p>
+                    <p><?php _e( 'This plugin gives you the ability to easily and safely add a RSS feed icon to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website. RSS feed icon allows your visitors to receive messages from your Blog/RSS feed by email.', $text ); ?></p>
                 </div>
             </div>
 
