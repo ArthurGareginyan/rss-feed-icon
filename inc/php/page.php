@@ -18,8 +18,9 @@ function spacexchimp_p013_render_submenu_page() {
     $path = SPACEXCHIMP_P013_PATH;
 
     // Call messages
-    spacexchimp_p013_hello_message();
-    spacexchimp_p013_error_message();
+    spacexchimp_p013_message_hello();
+    spacexchimp_p013_message_error_version();
+    spacexchimp_p013_message_save();
 
     // Layout of page
     ?>
