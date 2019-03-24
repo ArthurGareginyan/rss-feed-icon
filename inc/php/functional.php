@@ -10,19 +10,22 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
  */
 function spacexchimp_p013_shortcode() {
 
+    // Put value of plugin constants into an array for easier access
+    $plugin = spacexchimp_p013_plugin();
+
     // Retrieve options from database and declare variables
-    $options = get_option( SPACEXCHIMP_P013_SETTINGS . '_settings' );
+    $options = get_option( $plugin['settings'] . '_settings' );
     $feed_link = !empty( $options['feed_link'] ) ? $options['feed_link'] : '/?feed=rss';
     $tooltip = !empty( $options['tooltip'] ) ? 'data-toggle="tooltip"' : '';
     $tooltip_text = !empty( $options['tooltip_text'] ) ? $options['tooltip_text'] : 'RSS Feed';
-    if ( !empty( $options['custom_icon'] ) ) {
+    if ( ! empty( $options['custom_icon'] ) ) {
         $image_attributes = wp_get_attachment_image_src( $options['custom_icon'] );
         $icon_src = $image_attributes[0];
     } else {
-        if ( !empty( $options['integrated_icon'] ) ) {
-            $icon_src = SPACEXCHIMP_P013_URL . 'inc/img/icons/' . $options['integrated_icon'] . '.png';
+        if ( ! empty( $options['integrated_icon'] ) ) {
+            $icon_src = $plugin['url'] . 'inc/img/icons/' . $options['integrated_icon'] . '.png';
         } else {
-            $icon_src = SPACEXCHIMP_P013_URL . 'inc/img/icons/8.png';
+            $icon_src = $plugin['url'] . 'inc/img/icons/8.png';
         }
     }
 
