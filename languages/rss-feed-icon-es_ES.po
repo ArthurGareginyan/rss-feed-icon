@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RSS Feed Icon\n"
-"POT-Creation-Date: 2019-03-23 04:31+0300\n"
-"PO-Revision-Date: 2019-03-23 04:31+0300\n"
+"POT-Creation-Date: 2019-03-31 16:14+0300\n"
+"PO-Revision-Date: 2019-03-31 16:14+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -79,7 +79,7 @@ msgstr "Uso"
 msgid "F.A.Q."
 msgstr "Preguntas ?"
 
-#: inc/php/page.php:46 inc/php/sidebar.php:39 inc/php/tabs/settings.php:133
+#: inc/php/page.php:46 inc/php/sidebar.php:46 inc/php/tabs/settings.php:148
 msgid "Support"
 msgstr "Soporte"
 
@@ -87,36 +87,36 @@ msgstr "Soporte"
 msgid "Store"
 msgstr "Tienda"
 
-#: inc/php/sidebar.php:16
+#: inc/php/sidebar.php:17
 msgid "We are «Space X-Chimp»"
 msgstr ""
 
-#: inc/php/sidebar.php:25
+#: inc/php/sidebar.php:28
 msgid "About"
 msgstr "Acerca de"
 
-#: inc/php/sidebar.php:27
+#: inc/php/sidebar.php:30
 msgid "This plugin gives you the ability to easily and safely add a RSS feed icon to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website. RSS feed icon allows your visitors to receive messages from your Blog/RSS feed by email."
 msgstr ""
 
-#: inc/php/sidebar.php:32
+#: inc/php/sidebar.php:37
 msgid "Help"
 msgstr "Ayuda"
 
-#: inc/php/sidebar.php:34
+#: inc/php/sidebar.php:39
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Si tiene alguna pregunta, lee la información en la sección de preguntas frecuentes."
 
-#: inc/php/sidebar.php:41 inc/php/tabs/settings.php:135
+#: inc/php/sidebar.php:48 inc/php/tabs/settings.php:150
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Soy un desarrollador independiente, sin un ingreso regular, por lo que cada pequeña contribución ayuda a cubrir mis costos y me deja pasar más tiempo construyendo cosas para que personas como tú las disfruten."
 
-#: inc/php/sidebar.php:46 inc/php/tabs/settings.php:140
+#: inc/php/sidebar.php:53 inc/php/tabs/settings.php:155
 #: inc/php/tabs/support.php:21
 msgid "Donate with PayPal"
 msgstr "Donar con PayPal"
 
-#: inc/php/sidebar.php:48 inc/php/tabs/settings.php:142
+#: inc/php/sidebar.php:55 inc/php/tabs/settings.php:157
 msgid "Thanks for your support!"
 msgstr "¡Gracias por tu apoyo!"
 
@@ -467,59 +467,64 @@ msgstr "Puede hacer su pregunta en %s esta página %s."
 msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr "Pero ten en cuenta que este complemento es gratuito, y no hay un equipo de soporte especial, así que no tenemos forma de responder a todos."
 
-#: inc/php/tabs/settings.php:29 inc/php/tabs/settings.php:121
+#: inc/php/tabs/settings.php:30 inc/php/tabs/settings.php:132
 msgid "Save changes"
 msgstr "Guardar cambios"
 
-#: inc/php/tabs/settings.php:33
+#: inc/php/tabs/settings.php:35
 msgid "Main Settings"
 msgstr "Ajustes Principales"
 
-#: inc/php/tabs/settings.php:35
+#: inc/php/tabs/settings.php:37
 msgid "Here you can configure this plugin."
 msgstr "Aquí puedes configurar este complemento."
 
-#: inc/php/tabs/settings.php:39
+#: inc/php/tabs/settings.php:41
 msgid "RSS feed link"
 msgstr ""
 
-#: inc/php/tabs/settings.php:40
+#: inc/php/tabs/settings.php:42
 msgid "You can set a custom link to RSS feed of your website. Leave blank to use the default WordPress RSS feed link. Example: 'http://www.example.com/?feed=rss'"
 msgstr ""
 
-#: inc/php/tabs/settings.php:46
+#: inc/php/tabs/settings.php:48
 msgid "RSS feed icon"
 msgstr ""
 
-#: inc/php/tabs/settings.php:98
-msgid "You can choose the one of the eight icons above or upload your own icon. <br>You can find the coolest icons on the <a href=\"https://www.iconfinder.com/search/?q=rss+feed&ref=ArthurGareginyan\" target=\"_blank\" rel=\"nofollow\" >IconFinder.com.</a>"
+#: inc/php/tabs/settings.php:100
+msgid "You can choose the one of the eight icons above or upload your own icon."
 msgstr ""
-
-#: inc/php/tabs/settings.php:103
-msgid "Icon size"
-msgstr "Tamaño de ícono"
 
 #: inc/php/tabs/settings.php:104
-msgid "You can set the height of icon (in pixels)."
-msgstr ""
-
-#: inc/php/tabs/settings.php:108
-msgid "Tooltip"
-msgstr ""
-
-#: inc/php/tabs/settings.php:109
-msgid "Enable a tooltip above button."
-msgstr ""
-
-#: inc/php/tabs/settings.php:112
-msgid "Text of tooltip"
+#, php-format
+msgid "You can find the coolest icons on the %s IconFinder.com %s ."
 msgstr ""
 
 #: inc/php/tabs/settings.php:113
+msgid "Icon size"
+msgstr "Tamaño de ícono"
+
+#: inc/php/tabs/settings.php:114
+msgid "You can set the height of icon (in pixels)."
+msgstr ""
+
+#: inc/php/tabs/settings.php:118
+msgid "Tooltip"
+msgstr ""
+
+#: inc/php/tabs/settings.php:119
+msgid "Enable a tooltip above button."
+msgstr ""
+
+#: inc/php/tabs/settings.php:122
+msgid "Text of tooltip"
+msgstr ""
+
+#: inc/php/tabs/settings.php:123
 msgid "You can set a custom text of tooltip. Leave blank to use the default text."
 msgstr ""
 
-#: inc/php/tabs/settings.php:124
+#: inc/php/tabs/settings.php:137
 msgid "Live Preview"
 msgstr "Vista Previa"
 
