@@ -31,17 +31,18 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     </button>
                     <!-- END SUBMIT -->
 
-                    <div class="postbox" id="settings">
-                        <h3 class="title"><?php _e( 'Main Settings', $plugin['text'] ); ?></h3>
+                    <div class="postbox" id="options-group-button">
+                        <h3 class="title"><?php _e( 'Button', $plugin['text'] ); ?></h3>
                         <div class="inside">
-                            <p class="note"><?php _e( 'Here you can configure this plugin.', $plugin['text'] ); ?></p>
+                            <p class="note"><?php _e( 'Here you can customize the button.', $plugin['text'] ); ?></p>
                             <table class="form-table">
                                 <?php
                                     spacexchimp_p013_control_field( 'feed_link',
-                                                                    __( 'RSS feed link', $plugin['text'] ),
-                                                                    __( 'You can set a custom link to RSS feed of your website. Leave blank to use the default WordPress RSS feed link. Example: \'http://www.example.com/?feed=rss\'', $plugin['text'] ),
+                                                                    __( 'RSS feed URL', $plugin['text'] ),
+                                                                    __( 'You can set a custom URL of your website RSS feed. Leave blank to use the default WordPress RSS feed URL. Example: \'http://www.example.com/?feed=rss\'', $plugin['text'] ),
                                                                     'http://'
                                                                   );
+                                    spacexchimp_p013_control_separator();
                                 ?>
                                 <tr>
                                     <th scope='row'>
@@ -109,11 +110,23 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                     </td>
                                 </tr>
                                 <?php
+                                    spacexchimp_p013_control_separator();
                                     spacexchimp_p013_control_number( 'icon_size',
-                                                                     __( 'Icon size', $plugin['text'] ),
+                                                                     __( 'Button size', $plugin['text'] ),
                                                                      __( 'You can set the height of icon (in pixels).', $plugin['text'] ),
                                                                      '60'
                                                                    );
+                                ?>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="postbox" id="options-group-tooltip">
+                        <h3 class="title"><?php _e( 'Tooltip', $plugin['text'] ); ?></h3>
+                        <div class="inside">
+                            <p class="note"><?php _e( 'Here you can customize the tooltip that will be displayed next to button.', $plugin['text'] ); ?></p>
+                            <table class="form-table">
+                                <?php
                                     spacexchimp_p013_control_switch( 'tooltip',
                                                                      __( 'Tooltip', $plugin['text'] ),
                                                                      __( 'Enable a tooltip above button.', $plugin['text'] )
@@ -134,7 +147,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
 
                     <!-- PREVIEW -->
                     <div class="postbox" id="preview">
-                        <h3 class="title"><?php _e( 'Live Preview', $plugin['text'] ); ?></h3>
+                        <h3 class="title"><?php _e( 'Live preview', $plugin['text'] ); ?></h3>
                         <div class="inside">
                             <div class="preview-icon">
                                 <?php echo spacexchimp_p013_shortcode(); ?>
