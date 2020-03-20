@@ -157,14 +157,14 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 * The icon of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
 * The banner of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
-* Icon 1.png by [Webdesigner Depot](https://www.iconfinder.com/icons/40405/feed_rss_sticker_icon?ref=ArthurGareginyan).
-* Icon 2.png by [Clay Cauley](https://www.iconfinder.com/icons/60716/feed_rss_sticker_icon?ref=ArthurGareginyan).
-* Icon 3.png by [NarjisNaqvi](https://www.iconfinder.com/icons/14715/feed_rss_icon?ref=ArthurGareginyan).
-* Icon 4.png by [Murid Rahhal](https://www.iconfinder.com/icons/16643/feed_rss_social_media_icon?ref=ArthurGareginyan).
-* Icon 5.png by [Rebin Infotech](https://www.iconfinder.com/icons/1220353/feed_news_rss_subscribe_icon?ref=ArthurGareginyan).
-* Icon 6.png by [Abhishek Pipalva](https://www.iconfinder.com/icons/1632493/circle_round_icon_rss_icon?ref=ArthurGareginyan).
-* Icon 7.png by [Bartłomiej Jacak](https://www.iconfinder.com/icons/380449/rss_icon?ref=ArthurGareginyan).
-* Icon 8.png by [YOOtheme](https://www.iconfinder.com/icons/60845/feed_orange_rss_social_icon?ref=ArthurGareginyan).
+* Icon 1.png by [Webdesigner Depot](https://www.iconfinder.com/icons/40405/feed_rss_sticker_icon?ref=MilenaKiseleva).
+* Icon 2.png by [Clay Cauley](https://www.iconfinder.com/icons/60716/feed_rss_sticker_icon?ref=MilenaKiseleva).
+* Icon 3.png by [NarjisNaqvi](https://www.iconfinder.com/icons/14715/feed_rss_icon?ref=MilenaKiseleva).
+* Icon 4.png by [Murid Rahhal](https://www.iconfinder.com/icons/16643/feed_rss_social_media_icon?ref=MilenaKiseleva).
+* Icon 5.png by [Rebin Infotech](https://www.iconfinder.com/icons/1220353/feed_news_rss_subscribe_icon?ref=MilenaKiseleva).
+* Icon 6.png by [Abhishek Pipalva](https://www.iconfinder.com/icons/1632493/circle_round_icon_rss_icon?ref=MilenaKiseleva).
+* Icon 7.png by [Bartłomiej Jacak](https://www.iconfinder.com/icons/380449/rss_icon?ref=MilenaKiseleva).
+* Icon 8.png by [YOOtheme](https://www.iconfinder.com/icons/60845/feed_orange_rss_social_icon?ref=MilenaKiseleva).
 * [Bootstrap](http://getbootstrap.com) by Twitter, Inc. released under the [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 * [Bootstrap-checkbox](https://github.com/vsn4ik/bootstrap-checkbox) is a project of [Vasily A.](https://github.com/vsn4ik), shared under the [MIT license](https://github.com/vsn4ik/bootstrap-checkbox/blob/master/LICENSE).
 * [Font Awesome](https://fontawesome.com) is an open source-project created by Dave Gandy. Font released under the [SIL OFL 1.1 license](http://scripts.sil.org/OFL). Code released under the [MIT License](http://opensource.org/licenses/mit-license.html).
