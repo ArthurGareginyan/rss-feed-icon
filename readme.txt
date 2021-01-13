@@ -155,8 +155,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 **Credits**
 
-* The icon of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
-* The banner of plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
+* The icon of this plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
+* The banner of this plugin is a copyrighted image created by the [Space X-Chimp](https://www.spacexchimp.com) team. (C) All rights reserved.
+* Unless otherwise stated, all images are created by the [Space X-Chimp](https://www.spacexchimp.com) team and are copyrighted. (C) All rights reserved.
 * Icon 1.png by [Webdesigner Depot](https://www.iconfinder.com/icons/40405/feed_rss_sticker_icon?ref=MilenaKiseleva).
 * Icon 2.png by [Clay Cauley](https://www.iconfinder.com/icons/60716/feed_rss_sticker_icon?ref=MilenaKiseleva).
 * Icon 3.png by [NarjisNaqvi](https://www.iconfinder.com/icons/14715/feed_rss_icon?ref=MilenaKiseleva).
