@@ -18,9 +18,9 @@ function spacexchimp_p013_generator() {
     $options = spacexchimp_p013_options();
 
     // Declare variables
-    $feed_link = !empty( $options['feed_link'] ) ? $options['feed_link'] : '/?feed=rss';
+    $feed_link = $options['feed_link'];
     $tooltip = !empty( $options['tooltip'] ) ? 'data-toggle="tooltip"' : '';
-    $tooltip_text = !empty( $options['tooltip_text'] ) ? $options['tooltip_text'] : 'RSS Feed';
+    $tooltip_text = $options['tooltip_text'];
     if ( ! empty( $options['custom_icon'] ) ) {
         $image_attributes = wp_get_attachment_image_src( $options['custom_icon'] );
         $icon_src = $image_attributes[0];
