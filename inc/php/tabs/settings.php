@@ -17,8 +17,8 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                     <?php settings_fields( $plugin['settings'] . '_settings_group' ); ?>
 
                     <?php
-                        // Retrieve options from database
-                        $options = get_option( $plugin['settings'] . '_settings' );
+                        // Put the value of the plugin options into an array for easier access
+                        $options = spacexchimp_p013_options();
 
                         // Set default value if option is empty
                         $integrated_icon = !empty( $options['integrated_icon'] ) ? $options['integrated_icon'] : '8';
