@@ -21,10 +21,15 @@ function spacexchimp_p013_options() {
     $array = $options;
 
     // Set default value if option is empty
-    $array['hidden_scrollto'] = !empty( $options['hidden_scrollto'] ) ? $options['hidden_scrollto'] : '0';
-    $array['icon_size'] = !empty( $options['icon_size'] ) ? $options['icon_size'] : '60';
-    $array['feed_link'] = !empty( $options['feed_link'] ) ? $options['feed_link'] : '/?feed=rss';
-    $array['tooltip_text'] = !empty( $options['tooltip_text'] ) ? $options['tooltip_text'] : 'RSS Feed';
+    $list = array(
+        'hidden_scrollto' => '0',
+        'icon_size' => '60',
+        'feed_link' => '/?feed=rss',
+        'tooltip_text' => 'RSS Feed',
+    );
+    foreach ( $list as $name => $default ) {
+        $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
+    }
 
     // Sanitize data
 
