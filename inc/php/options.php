@@ -26,6 +26,9 @@ function spacexchimp_p013_options() {
     $array['feed_link'] = !empty( $options['feed_link'] ) ? $options['feed_link'] : '/?feed=rss';
     $array['tooltip_text'] = !empty( $options['tooltip_text'] ) ? $options['tooltip_text'] : 'RSS Feed';
 
+    // Sanitize data
+
+
     // Return the processed data
     return $array;
 }
