@@ -18,7 +18,6 @@ function spacexchimp_p013_generator() {
     $options = spacexchimp_p013_options();
 
     // Declare variables
-    $tooltip = !empty( $options['tooltip'] ) ? 'data-toggle="tooltip"' : '';
     if ( ! empty( $options['custom_icon'] ) ) {
         $image_attributes = wp_get_attachment_image_src( $options['custom_icon'] );
         $icon_src = $image_attributes[0];
@@ -28,6 +27,13 @@ function spacexchimp_p013_generator() {
         } else {
             $icon_src = $plugin['url'] . 'inc/img/icons/8.png';
         }
+    }
+
+    // Generate tolltips
+    if ( $options['tooltip'] === true ) {
+        $tooltips = 'data-toggle="tooltip"';
+    } else {
+        $tooltips = ''; // Empty value
     }
 
     // Generate button
