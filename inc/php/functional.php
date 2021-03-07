@@ -22,11 +22,7 @@ function spacexchimp_p013_generator() {
         $image_attributes = wp_get_attachment_image_src( $options['custom_icon'] );
         $icon_src = $image_attributes[0];
     } else {
-        if ( ! empty( $options['integrated_icon'] ) ) {
-            $icon_src = $plugin['url'] . 'inc/img/icons/' . $options['integrated_icon'] . '.png';
-        } else {
-            $icon_src = $plugin['url'] . 'inc/img/icons/8.png';
-        }
+        $icon_src = $plugin['url'] . 'inc/img/icons/' . $options['integrated_icon'] . '.png';
     }
 
     // Generate tolltips
