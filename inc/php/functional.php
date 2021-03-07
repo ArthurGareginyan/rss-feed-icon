@@ -31,9 +31,9 @@ function spacexchimp_p013_generator() {
 
     // Generate tolltips
     if ( $options['tooltip'] === true ) {
-        $tooltips = 'data-toggle="tooltip"';
+        $tooltip = 'data-toggle="tooltip"';
     } else {
-        $tooltips = ''; // Empty value
+        $tooltip = ''; // Empty value
     }
 
     // Generate button
