@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RSS Feed Icon\n"
-"POT-Creation-Date: 2021-01-02 21:10+0300\n"
-"PO-Revision-Date: 2021-01-02 21:10+0300\n"
+"POT-Creation-Date: 2021-03-09 01:24+0300\n"
+"PO-Revision-Date: 2021-03-09 01:24+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -79,7 +79,7 @@ msgstr "Uso"
 msgid "F.A.Q."
 msgstr "Preguntas ?"
 
-#: inc/php/page.php:46 inc/php/sidebar.php:46 inc/php/tabs/settings.php:169
+#: inc/php/page.php:46 inc/php/sidebar.php:46 inc/php/tabs/settings.php:166
 msgid "Support"
 msgstr "Soporte"
 
@@ -107,16 +107,16 @@ msgstr "Ayuda"
 msgid "If you have a question, please read the information in the FAQ section."
 msgstr "Si tiene alguna pregunta, lee la información en la sección de preguntas frecuentes."
 
-#: inc/php/sidebar.php:48 inc/php/tabs/settings.php:171
+#: inc/php/sidebar.php:48 inc/php/tabs/settings.php:168
 msgid "Every little contribution helps to cover our costs and allows us to spend more time creating things for awesome people like you to enjoy."
 msgstr "Soy un desarrollador independiente, sin un ingreso regular, por lo que cada pequeña contribución ayuda a cubrir mis costos y me deja pasar más tiempo construyendo cosas para que personas como tú las disfruten."
 
-#: inc/php/sidebar.php:53 inc/php/tabs/settings.php:176
+#: inc/php/sidebar.php:53 inc/php/tabs/settings.php:173
 #: inc/php/tabs/support.php:25
 msgid "Donate with PayPal"
 msgstr "Donar con PayPal"
 
-#: inc/php/sidebar.php:55 inc/php/tabs/settings.php:178
+#: inc/php/sidebar.php:55 inc/php/tabs/settings.php:175
 msgid "Thanks for your support!"
 msgstr "¡Gracias por tu apoyo!"
 
@@ -467,68 +467,68 @@ msgstr "Puede hacer su pregunta en %s esta página %s."
 msgid "But please keep in mind that this plugin is free, and there is no a special support team, so we have no way to answer everyone."
 msgstr "Pero ten en cuenta que este complemento es gratuito, y no hay un equipo de soporte especial, así que no tenemos forma de responder a todos."
 
-#: inc/php/tabs/settings.php:30 inc/php/tabs/settings.php:153
+#: inc/php/tabs/settings.php:27 inc/php/tabs/settings.php:150
 msgid "Save changes"
 msgstr "Guardar cambios"
 
-#: inc/php/tabs/settings.php:35
+#: inc/php/tabs/settings.php:32
 msgid "Button"
 msgstr ""
 
-#: inc/php/tabs/settings.php:37
+#: inc/php/tabs/settings.php:34
 msgid "Here you can customize the button."
 msgstr "Aquí puedes personalizar el botón."
 
-#: inc/php/tabs/settings.php:41
+#: inc/php/tabs/settings.php:38
 msgid "RSS feed URL"
 msgstr ""
 
-#: inc/php/tabs/settings.php:42
+#: inc/php/tabs/settings.php:39
 msgid "You can set a custom URL of your website RSS feed. Leave blank to use the default WordPress RSS feed URL. Example: 'http://www.example.com/?feed=rss'"
 msgstr ""
 
-#: inc/php/tabs/settings.php:49
+#: inc/php/tabs/settings.php:46
 msgid "RSS feed icon"
 msgstr ""
 
-#: inc/php/tabs/settings.php:101
+#: inc/php/tabs/settings.php:98
 msgid "You can choose the one of the eight icons above or upload your own icon."
 msgstr ""
 
-#: inc/php/tabs/settings.php:105
+#: inc/php/tabs/settings.php:102
 #, php-format
 msgid "You can find the coolest icons on the %s IconFinder.com %s ."
 msgstr ""
 
-#: inc/php/tabs/settings.php:115
+#: inc/php/tabs/settings.php:112
 msgid "Button size"
 msgstr "Tamaño de ícono"
 
-#: inc/php/tabs/settings.php:116
+#: inc/php/tabs/settings.php:113
 msgid "You can set the height of icon (in pixels)."
 msgstr ""
 
-#: inc/php/tabs/settings.php:125 inc/php/tabs/settings.php:131
+#: inc/php/tabs/settings.php:122 inc/php/tabs/settings.php:128
 msgid "Tooltip"
 msgstr ""
 
-#: inc/php/tabs/settings.php:127
+#: inc/php/tabs/settings.php:124
 msgid "Here you can customize the tooltip that will be displayed next to button."
 msgstr "Aquí puedes personalizar el tooltip that will be displayed next to button."
 
-#: inc/php/tabs/settings.php:132
+#: inc/php/tabs/settings.php:129
 msgid "Enable a tooltip above button."
 msgstr ""
 
-#: inc/php/tabs/settings.php:135
+#: inc/php/tabs/settings.php:132
 msgid "Text of tooltip"
 msgstr ""
 
-#: inc/php/tabs/settings.php:136
+#: inc/php/tabs/settings.php:133
 msgid "You can set a custom text of tooltip. Leave blank to use the default text."
 msgstr ""
 
-#: inc/php/tabs/settings.php:158
+#: inc/php/tabs/settings.php:155
 msgid "Live preview"
 msgstr "Vista previa"
 
