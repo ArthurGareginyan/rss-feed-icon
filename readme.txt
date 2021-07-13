@@ -3,7 +3,7 @@ Contributors: Arthur Gareginyan
 Tags: rss, feed, feeds, rss feed, rss feeds, button, icon, follow, rss2email, subscribe, subscription, email subscription, newsletter, newsletters, email newsletter, email newsletters, specificfeeds.com, specificfeeds, specific feeds, feedburner, feedburner alternative
 Donate link: https://www.spacexchimp.com/donate.html
 Requires at least: 4.9
-Tested up to: 5.7
+Tested up to: 5.8
 Requires PHP: 5.6
 Stable tag: 2.44
 License: GPL3
@@ -178,6 +178,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 
 == Changelog ==
+
+=
+* Maintenance: Ensure compatibility with upcoming WordPress 5.8.
 
 = 2.44 - Mar 8, 2021 =
 * Maintenance: Ensure compatibility with upcoming WordPress 5.7.
