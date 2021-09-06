@@ -5,7 +5,7 @@
  * Description: Easily and safely add a RSS feed icon to any place (post content, page content, widget, sidebar, header, footer) of your WordPress website.
  * Author: Space X-Chimp
  * Author URI: https://www.spacexchimp.com
- * Version: 2.45
+ * Version: 2.46
  * License: GPL3
  * Text Domain: rss-feed-icon
  * Domain Path: /languages/
