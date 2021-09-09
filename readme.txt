@@ -179,6 +179,9 @@ Commercial licensing (e.g. for projects that can’t use an open-source license)
 
 == Changelog ==
 
+=  =
+* Security improvement: Prevent direct access to the "inc/options.php" file.
+
 = 2.46 - Sep 6, 2021 =
 * Fixed: Strange behavior of the toggle switches (ON/OFF buttons) on the plugin settings page. (Thanks to Werner Krauß)
 
