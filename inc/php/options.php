@@ -40,7 +40,13 @@ function spacexchimp_p013_options() {
     }
 
     // Sanitize data
-
+    //$array['custom_icon'] = esc_textarea( $array['custom_icon'] );
+    //$array['feed_link'] = esc_textarea( $array['feed_link'] );
+    //$array['hidden_scrollto'] = esc_textarea( $array['hidden_scrollto'] );
+    //$array['icon_size'] = esc_textarea( $array['icon_size'] );
+    //$array['integrated_icon'] = esc_textarea( $array['integrated_icon'] );
+    //$array['tooltip_text'] = esc_textarea( $array['tooltip_text'] );
+    //$array['tooltip'] = esc_textarea( $array['tooltip'] );
 
     // Modify data
     $array['tooltip'] = ( $array['tooltip'] == 'on' || $array['tooltip'] == '1' || $array['tooltip'] == 'true' ) ? true : false;
