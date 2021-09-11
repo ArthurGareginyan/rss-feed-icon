@@ -110,8 +110,7 @@ defined( 'ABSPATH' ) or die( "Restricted access!" );
                                     spacexchimp_p013_control_separator();
                                     spacexchimp_p013_control_number( 'icon_size',
                                                                      __( 'Button size', $plugin['text'] ),
-                                                                     __( 'You can set the height of icon (in pixels).', $plugin['text'] ),
-                                                                     '60'
+                                                                     __( 'You can set the height of icon (in pixels).', $plugin['text'] )
                                                                    );
                                 ?>
                             </table>
