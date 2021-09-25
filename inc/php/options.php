@@ -27,13 +27,13 @@ function spacexchimp_p013_options() {
 
     // Set default value if option is empty
     $list = array(
-        'custom_icon' => '', // _image_uploader
-        'feed_link' => '/?feed=rss', // _control_field
-        'hidden_scrollto' => '0', // _control_hidden
-        'icon_size' => '60', // _control_number
-        'integrated_icon' => '8', // custom
-        'tooltip_text' => 'RSS Feed', // _control_field
-        'tooltip' => '', // _control_switch
+        'custom_icon' => (string) '', // _image_uploader
+        'feed_link' => (string) '/?feed=rss', // _control_field
+        'hidden_scrollto' => (integer) '0', // _control_hidden
+        'icon_size' => (integer) '60', // _control_number
+        'integrated_icon' => (integer) '8', // custom
+        'tooltip_text' => (string) 'RSS Feed', // _control_field
+        'tooltip' => (boolean) '', // _control_switch
     );
     foreach ( $list as $name => $default ) {
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
