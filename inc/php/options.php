@@ -24,8 +24,6 @@ function spacexchimp_p013_options() {
 
     // Create an array with options
     $array = $options;
-
-    // Set default value if option is empty
     $list = array(
         'custom_icon' => (string) '', // _image_uploader
         'feed_link' => (string) '/?feed=rss', // _control_field
@@ -36,6 +34,8 @@ function spacexchimp_p013_options() {
         'tooltip' => (boolean) '', // _control_switch
     );
     foreach ( $list as $name => $default ) {
+
+        // Set default value if option is empty
         $array[$name] = !empty( $options[$name] ) ? $options[$name] : $default;
     }
 
