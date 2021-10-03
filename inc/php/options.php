@@ -50,8 +50,8 @@ function spacexchimp_p013_options() {
 
     // Sanitize data
     //$array['custom_icon'] = esc_textarea( $array['custom_icon'] );
-    //$array['feed_link'] = esc_textarea( $array['feed_link'] );
-    //$array['tooltip_text'] = esc_textarea( $array['tooltip_text'] );
+    $array['feed_link'] = esc_url( $array['feed_link'] );
+    $array['tooltip_text'] = sanitize_text_field( $array['tooltip_text'] );
 
     // Modify data
 
